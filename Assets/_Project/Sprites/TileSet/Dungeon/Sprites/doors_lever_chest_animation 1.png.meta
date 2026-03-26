@@ -1,0 +1,688 @@
+fileFormatVersion: 2
+guid: 77381624998708e429ec9186f1cedf23
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: doors_lever_chest_animation_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bb606dccebe5d42bfe0795f3a0bc9f
+      internalID: 295825811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doors_lever_chest_animation 1_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 197
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cbde79e195486498edda16ab5f3167
+      internalID: -293166770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doors_lever_chest_animation 1_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 197
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65f34f04eb54f44082afaa274d76ff1
+      internalID: -1518472040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doors_lever_chest_animation 1_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 149
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c003bde1b4cfa4da10d30cdb647165
+      internalID: -1433410530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doors_lever_chest_animation 1_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 149
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9f4ea7de002254b89b61e5cfab9d9f
+      internalID: -1357858467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doors_lever_chest_animation 1_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 101
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98edd4860852ab141897e0ae9c1bfdf1
+      internalID: 1629956473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doors_lever_chest_animation 1_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 101
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba53dd9e53aa1b84ca27ae39dcc5b241
+      internalID: 701519659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doors_lever_chest_animation 1_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 53
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deae555469fa71940b0ac8981f8065f0
+      internalID: -2115161546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doors_lever_chest_animation 1_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 53
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0437786aff16c4d888b1e157284284
+      internalID: -871791521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doors_lever_chest_animation 1_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 5
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd35e142be6262449744696185a311d
+      internalID: -33477883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doors_lever_chest_animation 1_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 5
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb544d4d0786c1429d1a20eb2bbeef9
+      internalID: -12821987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doors_lever_chest_animation 1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048b75287fc69f54a8e71db3c03df960
+      internalID: 1309487041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doors_lever_chest_animation 1_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cd34616ee9aa943a0fb3a8b7499b92
+      internalID: 1402031604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doors_lever_chest_animation 1_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8dfa18f8cdf3804f9b8b3e7803932c6
+      internalID: -88076879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doors_lever_chest_animation 1_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c0265b82cde7c4db3bd7d3c55476c4
+      internalID: -682271192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doors_lever_chest_animation 1_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab30d070c566bf8439431ed42b68308d
+      internalID: -1051035853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doors_lever_chest_animation 1_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989a060839c81a84396ba3cefce5019a
+      internalID: -1305695402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doors_lever_chest_animation 1_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d84f451e2db0fa4697ef26a58ce5bb1
+      internalID: 1506364256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doors_lever_chest_animation 1_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712ecdcd5581dd347852de99efec5541
+      internalID: -452200557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doors_lever_chest_animation 1_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16eed0dc2756ac34e8efa0401a1931e0
+      internalID: -276806696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      doors_lever_chest_animation 1_0: -293166770
+      doors_lever_chest_animation 1_1: -1518472040
+      doors_lever_chest_animation 1_10: 1309487041
+      doors_lever_chest_animation 1_11: 1402031604
+      doors_lever_chest_animation 1_12: -88076879
+      doors_lever_chest_animation 1_13: -682271192
+      doors_lever_chest_animation 1_14: -1051035853
+      doors_lever_chest_animation 1_15: -1305695402
+      doors_lever_chest_animation 1_16: 1506364256
+      doors_lever_chest_animation 1_17: -452200557
+      doors_lever_chest_animation 1_18: -276806696
+      doors_lever_chest_animation 1_2: -1433410530
+      doors_lever_chest_animation 1_3: -1357858467
+      doors_lever_chest_animation 1_4: 1629956473
+      doors_lever_chest_animation 1_5: 701519659
+      doors_lever_chest_animation 1_6: -2115161546
+      doors_lever_chest_animation 1_7: -871791521
+      doors_lever_chest_animation 1_8: -33477883
+      doors_lever_chest_animation 1_9: -12821987
+      doors_lever_chest_animation_0: -531893633
+      doors_lever_chest_animation_1: -1650790146
+      doors_lever_chest_animation_10: -24173565
+      doors_lever_chest_animation_100: -1577340157
+      doors_lever_chest_animation_101: -1355276791
+      doors_lever_chest_animation_102: 22310464
+      doors_lever_chest_animation_103: 572813510
+      doors_lever_chest_animation_104: -578377252
+      doors_lever_chest_animation_105: -1183896447
+      doors_lever_chest_animation_106: 1019326558
+      doors_lever_chest_animation_107: -1205122985
+      doors_lever_chest_animation_108: -1039974270
+      doors_lever_chest_animation_109: 620846783
+      doors_lever_chest_animation_11: 367127056
+      doors_lever_chest_animation_110: -1786243024
+      doors_lever_chest_animation_111: 1367729328
+      doors_lever_chest_animation_112: 627790217
+      doors_lever_chest_animation_113: 1674154179
+      doors_lever_chest_animation_114: 296282137
+      doors_lever_chest_animation_115: -1687260138
+      doors_lever_chest_animation_116: -222025495
+      doors_lever_chest_animation_117: 729944536
+      doors_lever_chest_animation_118: -2056993107
+      doors_lever_chest_animation_119: 876229248
+      doors_lever_chest_animation_12: -674470286
+      doors_lever_chest_animation_120: 842025778
+      doors_lever_chest_animation_121: -63773642
+      doors_lever_chest_animation_122: -1958625346
+      doors_lever_chest_animation_123: -2022392647
+      doors_lever_chest_animation_124: 1719308063
+      doors_lever_chest_animation_125: -965050016
+      doors_lever_chest_animation_126: -302217478
+      doors_lever_chest_animation_127: 698277180
+      doors_lever_chest_animation_128: 427884976
+      doors_lever_chest_animation_129: -757899686
+      doors_lever_chest_animation_13: 603544336
+      doors_lever_chest_animation_130: 721161884
+      doors_lever_chest_animation_131: 255859835
+      doors_lever_chest_animation_132: -1746522160
+      doors_lever_chest_animation_133: -1261206342
+      doors_lever_chest_animation_134: 107630874
+      doors_lever_chest_animation_14: -1648592480
+      doors_lever_chest_animation_15: 1341590307
+      doors_lever_chest_animation_16: -1095696240
+      doors_lever_chest_animation_17: 952853193
+      doors_lever_chest_animation_18: 56822356
+      doors_lever_chest_animation_19: -1586477818
+      doors_lever_chest_animation_2: 700115409
+      doors_lever_chest_animation_20: 753149958
+      doors_lever_chest_animation_21: 41818410
+      doors_lever_chest_animation_22: -201838066
+      doors_lever_chest_animation_23: 131856929
+      doors_lever_chest_animation_24: -1290641342
+      doors_lever_chest_animation_25: -930105994
+      doors_lever_chest_animation_26: -1799892539
+      doors_lever_chest_animation_27: 1280528447
+      doors_lever_chest_animation_28: 979685705
+      doors_lever_chest_animation_29: 2020016240
+      doors_lever_chest_animation_3: -46334241
+      doors_lever_chest_animation_30: 897145327
+      doors_lever_chest_animation_31: 306606558
+      doors_lever_chest_animation_32: 1356213212
+      doors_lever_chest_animation_33: 270965573
+      doors_lever_chest_animation_34: -450625656
+      doors_lever_chest_animation_35: 1230742685
+      doors_lever_chest_animation_36: -1500553027
+      doors_lever_chest_animation_37: 1020437645
+      doors_lever_chest_animation_38: -1806639712
+      doors_lever_chest_animation_39: 2099535659
+      doors_lever_chest_animation_4: 1460795310
+      doors_lever_chest_animation_40: 330936082
+      doors_lever_chest_animation_41: 1449164704
+      doors_lever_chest_animation_42: -629532249
+      doors_lever_chest_animation_43: -951890147
+      doors_lever_chest_animation_44: -305203890
+      doors_lever_chest_animation_45: 747671760
+      doors_lever_chest_animation_46: 628859494
+      doors_lever_chest_animation_47: -1748512396
+      doors_lever_chest_animation_48: 509376226
+      doors_lever_chest_animation_49: -426689904
+      doors_lever_chest_animation_5: 329318335
+      doors_lever_chest_animation_50: -651582370
+      doors_lever_chest_animation_51: -51039312
+      doors_lever_chest_animation_52: -421359670
+      doors_lever_chest_animation_53: -336264181
+      doors_lever_chest_animation_54: -220648896
+      doors_lever_chest_animation_55: -659284680
+      doors_lever_chest_animation_56: -1228122473
+      doors_lever_chest_animation_57: -1455332119
+      doors_lever_chest_animation_58: -1353261945
+      doors_lever_chest_animation_59: 1945928054
+      doors_lever_chest_animation_6: 1652820065
+      doors_lever_chest_animation_60: -705746428
+      doors_lever_chest_animation_61: -66621702
+      doors_lever_chest_animation_62: -393973258
+      doors_lever_chest_animation_63: -512803302
+      doors_lever_chest_animation_64: -93746959
+      doors_lever_chest_animation_65: 1995058638
+      doors_lever_chest_animation_66: -947539794
+      doors_lever_chest_animation_67: 831194196
+      doors_lever_chest_animation_68: 1128588828
+      doors_lever_chest_animation_69: 1187322639
+      doors_lever_chest_animation_7: -854476221
+      doors_lever_chest_animation_70: -162875235
+      doors_lever_chest_animation_71: -1545192488
+      doors_lever_chest_animation_72: 339711975
+      doors_lever_chest_animation_73: -981074136
+      doors_lever_chest_animation_74: -803775897
+      doors_lever_chest_animation_75: -870587254
+      doors_lever_chest_animation_76: 1938722488
+      doors_lever_chest_animation_77: -526353172
+      doors_lever_chest_animation_78: 1402539414
+      doors_lever_chest_animation_79: 538955323
+      doors_lever_chest_animation_8: 1131747349
+      doors_lever_chest_animation_80: 1792623352
+      doors_lever_chest_animation_81: 2035653050
+      doors_lever_chest_animation_82: -652743235
+      doors_lever_chest_animation_83: -2006267341
+      doors_lever_chest_animation_84: -411851778
+      doors_lever_chest_animation_85: -563055187
+      doors_lever_chest_animation_86: 969731009
+      doors_lever_chest_animation_87: 431733932
+      doors_lever_chest_animation_88: 367501519
+      doors_lever_chest_animation_89: -1273007853
+      doors_lever_chest_animation_9: 295825811
+      doors_lever_chest_animation_90: -1834629587
+      doors_lever_chest_animation_91: 653055388
+      doors_lever_chest_animation_92: 1437111963
+      doors_lever_chest_animation_93: 977692237
+      doors_lever_chest_animation_94: 324106388
+      doors_lever_chest_animation_95: 507330410
+      doors_lever_chest_animation_96: -413909627
+      doors_lever_chest_animation_97: 341339179
+      doors_lever_chest_animation_98: -1315292377
+      doors_lever_chest_animation_99: 430725738
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

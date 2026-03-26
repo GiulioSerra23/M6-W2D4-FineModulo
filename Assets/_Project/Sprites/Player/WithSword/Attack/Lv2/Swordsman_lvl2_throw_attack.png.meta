@@ -1,0 +1,825 @@
+fileFormatVersion: 2
+guid: 490ce0d507febb6479c177be1bd483fb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 211
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: 0.6496873, y: 0.03792053}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8cd9dd5038b04448b4b0a5ad6e7917
+      internalID: 826965031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 212
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.63721305, y: 0.00415802}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7a9bbbe876fd84c954150c52c77212
+      internalID: -786360969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 212
+        width: 24
+        height: 25
+      alignment: 9
+      pivot: {x: 0.6392924, y: 0.0039916993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879fa9494525e5f44a7f98a1212896ce
+      internalID: -1220047606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 204
+        width: 25
+        height: 28
+      alignment: 9
+      pivot: {x: 0.6346948, y: 0.28582218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500f235a8e58cd84fb51abb19aff4846
+      internalID: 1207308939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 204
+        width: 30
+        height: 31
+      alignment: 9
+      pivot: {x: 0.49292195, y: 0.26579186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d786a6d0362545c47a87949c42b6f457
+      internalID: 1435831925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_7
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 200
+        width: 30
+        height: 35
+      alignment: 9
+      pivot: {x: 0.44536945, y: 0.34115994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c106cd7180c7d469f5ae0b3751c073
+      internalID: -1570142016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_8
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 212
+        width: 15
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b649d8c558259d4fb9cceb261b429ec
+      internalID: -2084902763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_9
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 200
+        width: 32
+        height: 35
+      alignment: 9
+      pivot: {x: 0.46780682, y: 0.34249792}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf31806562343554db9543ff52857572
+      internalID: -1282568074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_10
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 148
+        width: 16
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5875149, y: 0.0013342286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5e4eea90af64b4688bb81cae34fabd
+      internalID: -1955992587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_11
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 148
+        width: 20
+        height: 26
+      alignment: 9
+      pivot: {x: 0.6216877, y: 0.001282912}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a34b4fc265efe47926803ab0e5f62f
+      internalID: 1495377556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_12
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 148
+        width: 17
+        height: 27
+      alignment: 9
+      pivot: {x: 0.49294147, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae59e48735888934b83005c8f07c55db
+      internalID: -1325229967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_13
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 146
+        width: 20
+        height: 27
+      alignment: 9
+      pivot: {x: 0.69811934, y: 0.08169895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726149897a528694c9e8bb6c52c1784d
+      internalID: 2013790933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_14
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 145
+        width: 28
+        height: 28
+      alignment: 9
+      pivot: {x: 0.8179278, y: 0.104493275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6b6f492816fac4392635bbe27727a9
+      internalID: -1281112256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_16
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 144
+        width: 29
+        height: 32
+      alignment: 9
+      pivot: {x: 0.78963286, y: 0.122558594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336b27e8c4d18074a8c748af1a6075d0
+      internalID: 1964675760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_18
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 145
+        width: 29
+        height: 30
+      alignment: 9
+      pivot: {x: 0.77571684, y: 0.10295003}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55243cea5de99874b95aac0421485264
+      internalID: -1394068623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_19
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 148
+        width: 16
+        height: 25
+      alignment: 9
+      pivot: {x: 0.7187691, y: -0.00000061035155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3d5d8277b1c2a4fb85dcd96ad9940a
+      internalID: 1577374194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_20
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 84
+        width: 16
+        height: 25
+      alignment: 9
+      pivot: {x: 0.47392392, y: -0.0010430908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf482aba999a5df41a45bff82d8290fb
+      internalID: -1921045662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_21
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 84
+        width: 22
+        height: 26
+      alignment: 9
+      pivot: {x: 0.6594953, y: 0.00000029343826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1419adffa91ddc4d9896d3a45b3740f
+      internalID: 1705034141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_22
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 84
+        width: 25
+        height: 27
+      alignment: 9
+      pivot: {x: 0.7091577, y: 0.00000028257017}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1b9943d924d804cadb5421c3163061
+      internalID: 1055988572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_23
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 81
+        width: 28
+        height: 28
+      alignment: 9
+      pivot: {x: 0.6130317, y: 0.14169884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6442eaa0c8686a043a2356a3295a8901
+      internalID: -1411006345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_24
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 81
+        width: 31
+        height: 28
+      alignment: 9
+      pivot: {x: 0.25841597, y: 0.110943384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6640c879806d347bd9aa937f4762e5
+      internalID: -142995351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_27
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 80
+        width: 28
+        height: 32
+      alignment: 9
+      pivot: {x: 0.1798815, y: 0.123820305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318045407f3675145b1eea45b2507164
+      internalID: 518678042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_28
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 81
+        width: 28
+        height: 30
+      alignment: 9
+      pivot: {x: 0.19829886, y: 0.1040095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e03d38393b84644815fab5a4f6f1c4
+      internalID: -1351208966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_29
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 84
+        width: 16
+        height: 25
+      alignment: 9
+      pivot: {x: 0.34937477, y: 0.002029419}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3453299c26214b34aa29fdad66936642
+      internalID: 1211301641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_30
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 20
+        width: 19
+        height: 24
+      alignment: 9
+      pivot: {x: 0.3443965, y: 0.0011839867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6941e664be3b3d43bfdada4854a6e0a
+      internalID: 1423051345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_31
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 20
+        width: 22
+        height: 24
+      alignment: 9
+      pivot: {x: 0.34752414, y: -0.00000047683716}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de12c0ea2396c740a9667dfad31ea4e
+      internalID: 1983666990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_32
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 20
+        width: 22
+        height: 25
+      alignment: 9
+      pivot: {x: 0.34364736, y: -0.00000045776366}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697db4c7b9c95ca438225d7de6ca2e33
+      internalID: -1722236364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_33
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 20
+        width: 26
+        height: 23
+      alignment: 9
+      pivot: {x: 0.31084678, y: -0.0012364595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a7f82b657977742a764c7cfb6b888c
+      internalID: 407420672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_34
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 20
+        width: 30
+        height: 27
+      alignment: 9
+      pivot: {x: 0.47251892, y: 0.0010524326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13644f81ee71ffd43aab9b9a462d637f
+      internalID: 61411232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_35
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 20
+        width: 32
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3a9c79f0d35944eb7b129fb3789ae2
+      internalID: -836476465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_37
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 20
+        width: 30
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5161072, y: -0.00000036916424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3d64b66ab39594e9c5ea5bdea19240
+      internalID: 1057168088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swordsman_lvl2_throw_attack_38
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 20
+        width: 15
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5739075, y: -0.0000004975692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370531dd8d5303c46b8a4ee2ffdfaed3
+      internalID: -610858866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Swordsman_lvl2_throw_attack_0: 826965031
+      Swordsman_lvl2_throw_attack_1: -786360969
+      Swordsman_lvl2_throw_attack_10: -1955992587
+      Swordsman_lvl2_throw_attack_11: 1495377556
+      Swordsman_lvl2_throw_attack_12: -1325229967
+      Swordsman_lvl2_throw_attack_13: 2013790933
+      Swordsman_lvl2_throw_attack_14: -1281112256
+      Swordsman_lvl2_throw_attack_15: 713738967
+      Swordsman_lvl2_throw_attack_16: 1964675760
+      Swordsman_lvl2_throw_attack_17: 739929022
+      Swordsman_lvl2_throw_attack_18: -1394068623
+      Swordsman_lvl2_throw_attack_19: 1577374194
+      Swordsman_lvl2_throw_attack_2: -1220047606
+      Swordsman_lvl2_throw_attack_20: -1921045662
+      Swordsman_lvl2_throw_attack_21: 1705034141
+      Swordsman_lvl2_throw_attack_22: 1055988572
+      Swordsman_lvl2_throw_attack_23: -1411006345
+      Swordsman_lvl2_throw_attack_24: -142995351
+      Swordsman_lvl2_throw_attack_25: 2110480125
+      Swordsman_lvl2_throw_attack_26: 389009315
+      Swordsman_lvl2_throw_attack_27: 518678042
+      Swordsman_lvl2_throw_attack_28: -1351208966
+      Swordsman_lvl2_throw_attack_29: 1211301641
+      Swordsman_lvl2_throw_attack_3: 1207308939
+      Swordsman_lvl2_throw_attack_30: 1423051345
+      Swordsman_lvl2_throw_attack_31: 1983666990
+      Swordsman_lvl2_throw_attack_32: -1722236364
+      Swordsman_lvl2_throw_attack_33: 407420672
+      Swordsman_lvl2_throw_attack_34: 61411232
+      Swordsman_lvl2_throw_attack_35: -836476465
+      Swordsman_lvl2_throw_attack_36: 1323930843
+      Swordsman_lvl2_throw_attack_37: 1057168088
+      Swordsman_lvl2_throw_attack_38: -610858866
+      Swordsman_lvl2_throw_attack_4: 1435831925
+      Swordsman_lvl2_throw_attack_5: 1599275805
+      Swordsman_lvl2_throw_attack_6: 1163555689
+      Swordsman_lvl2_throw_attack_7: -1570142016
+      Swordsman_lvl2_throw_attack_8: -2084902763
+      Swordsman_lvl2_throw_attack_9: -1282568074
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,713 @@
+fileFormatVersion: 2
+guid: 77121dd9212d2444bacf38bc5d5e89fd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fire_animation_11
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 11
+        width: 26
+        height: 27
+      alignment: 9
+      pivot: {x: 0.49999985, y: 0.5177779}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26b235d6b5baad44991ae6ed48d7fcb
+      internalID: -577156532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_animation_12
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 247
+        width: 35
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3.5, y: -17.5}
+        - {x: -9.5, y: -9.5}
+        - {x: 9.5, y: -9.5}
+        - {x: 4.5, y: -17.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47652923ada53484e98a86f1d4e947aa
+      internalID: 551970325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_animation_13
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 103
+        width: 35
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3.5, y: -17.5}
+        - {x: -9.5, y: -9.5}
+        - {x: 9.5, y: -9.5}
+        - {x: 4.5, y: -17.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b46cc6435641c46adc197a44542481
+      internalID: -483160617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_animation_14
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 199
+        width: 37
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3.5, y: -17.5}
+        - {x: -9.5, y: -9.5}
+        - {x: 9.5, y: -9.5}
+        - {x: 4.5, y: -17.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a2844fb0ab86d43997e2990b3878b6
+      internalID: 284141470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_animation_15
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 55
+        width: 37
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3.5, y: -17.5}
+        - {x: -9.5, y: -9.5}
+        - {x: 9.5, y: -9.5}
+        - {x: 4.5, y: -17.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3096dd57893b2074b9ef78550eadca8f
+      internalID: -2028466712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_animation_16
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 151
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3.5, y: -17.5}
+        - {x: -9.5, y: -9.5}
+        - {x: 9.5, y: -9.5}
+        - {x: 4.5, y: -17.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c44b544fee3474f9316521c82912c2
+      internalID: -1277277105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_animation_17
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 7
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3.5, y: -17.5}
+        - {x: -9.5, y: -9.5}
+        - {x: 9.5, y: -9.5}
+        - {x: 4.5, y: -17.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426779ea85a25554086b2225a8a2dfa9
+      internalID: -1645434522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_animation_18
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 249
+        width: 35
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1.5, y: -15.5}
+        - {x: -7.5, y: -11.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: -11.5}
+        - {x: 2.5, y: -15.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241cff05268b4bc4687adcc7cca9a141
+      internalID: -1073090294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_animation_19
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 105
+        width: 35
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1.5, y: -15.5}
+        - {x: -7.5, y: -11.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: -11.5}
+        - {x: 2.5, y: -15.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf91bfdd347333b4aa7f9906108274c4
+      internalID: 930730671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_animation_20
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 201
+        width: 31
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1.5, y: -15.5}
+        - {x: -7.5, y: -11.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: -11.5}
+        - {x: 2.5, y: -15.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec25e2055fd77b49aba604d6df17e4b
+      internalID: -507685693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_animation_21
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 153
+        width: 33
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1.5, y: -15.5}
+        - {x: -7.5, y: -11.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: -11.5}
+        - {x: 2.5, y: -15.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbb5b4a71cc4674aa47f4333f5e5ec9
+      internalID: 2042882628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_animation_22
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 57
+        width: 31
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1.5, y: -15.5}
+        - {x: -7.5, y: -11.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: -11.5}
+        - {x: 2.5, y: -15.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5019c93707c894b4e8f55756ccfddfbe
+      internalID: 2052777499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_animation_23
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 9
+        width: 33
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1.5, y: -15.5}
+        - {x: -7.5, y: -11.5}
+        - {x: -7.5, y: -7.5}
+        - {x: 7.5, y: -7.5}
+        - {x: 7.5, y: -11.5}
+        - {x: 2.5, y: -15.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbc14648b2d4ac40ba1134a818becbe
+      internalID: 661577030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_animation 1_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 251
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893b1fb13b7516e4cb91a270b7882989
+      internalID: 62348524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_animation 1_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 203
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e91a51d3c368248968f3c4f5b102b3
+      internalID: -797050920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_animation 1_2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 155
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549d5449064647f4cb4a619244d517cc
+      internalID: 1052096345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_animation 1_3
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 107
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb03bc9ff4868cc4cbf07efb5d6c098f
+      internalID: -1567323318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_animation 1_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 59
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7ae3451fe8941489c3e184b2394c2a
+      internalID: -1282352849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_animation 1_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 11
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.45, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5f7daedcd761a4f8328f04f14179d2
+      internalID: -912917063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_animation 1_6
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 59
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5018855, y: 0.5386496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879950ee39016024e8cbf1bbb7bf489b
+      internalID: 1564734710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_animation 1_7
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 107
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3d252bfdb4e6347a9e384d60abc845
+      internalID: -123926826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_animation 1_8
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 155
+        width: 28
+        height: 27
+      alignment: 9
+      pivot: {x: 0.49999985, y: 0.5162964}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226a00aba58883c4c81d8455240f3215
+      internalID: 1754061246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_animation 1_9
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 203
+        width: 28
+        height: 27
+      alignment: 9
+      pivot: {x: 0.49999973, y: 0.5185185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ca9a36bcc823c48a7f7ee94d84d129
+      internalID: 55859657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_animation 1_10
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 251
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931496064ffb9dc47b22ae6803af4433
+      internalID: 2114915922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      fire_animation 1_0: 62348524
+      fire_animation 1_1: -797050920
+      fire_animation 1_10: 2114915922
+      fire_animation 1_2: 1052096345
+      fire_animation 1_3: -1567323318
+      fire_animation 1_4: -1282352849
+      fire_animation 1_5: -912917063
+      fire_animation 1_6: 1564734710
+      fire_animation 1_7: -123926826
+      fire_animation 1_8: 1754061246
+      fire_animation 1_9: 55859657
+      fire_animation_0: -812863400
+      fire_animation_1: -522396008
+      fire_animation_10: -898358742
+      fire_animation_11: -577156532
+      fire_animation_12: 551970325
+      fire_animation_13: -483160617
+      fire_animation_14: 284141470
+      fire_animation_15: -2028466712
+      fire_animation_16: -1277277105
+      fire_animation_17: -1645434522
+      fire_animation_18: -1073090294
+      fire_animation_19: 930730671
+      fire_animation_2: 1589569985
+      fire_animation_20: -507685693
+      fire_animation_21: 2042882628
+      fire_animation_22: 2052777499
+      fire_animation_23: 661577030
+      fire_animation_3: 983439698
+      fire_animation_4: 677318908
+      fire_animation_5: 78452396
+      fire_animation_6: 861466016
+      fire_animation_7: 1166448717
+      fire_animation_8: -1035833318
+      fire_animation_9: 1781959013
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

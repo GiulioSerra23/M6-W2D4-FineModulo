@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Bullet
+  - Weapon
+  - Pet
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Bullet
+  - Enemy
+  - Map
+  - Pet
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Ground
+    uniqueID: 2715426975
+    locked: 0
+  - name: Low_Walls
+    uniqueID: 2387373991
+    locked: 0
+  - name: ForeGround
+    uniqueID: 512759053
+    locked: 0
+  - name: Units
+    uniqueID: 807611581
+    locked: 0
+  - name: Top_Walls
+    uniqueID: 909302343
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

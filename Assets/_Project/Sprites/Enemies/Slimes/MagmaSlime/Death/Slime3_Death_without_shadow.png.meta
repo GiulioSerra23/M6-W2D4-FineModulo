@@ -1,0 +1,1042 @@
+fileFormatVersion: 2
+guid: 6109349b6aa545c4d9b044871e91ad7c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 216
+        width: 15
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fca8242b5eb2114a87f37d3c1a722a6
+      internalID: -397243529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 216
+        width: 39
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8835bfa8dcbcfa047b65c770f157a4d9
+      internalID: 543799745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 216
+        width: 42
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4585f92c765e5c248853ff21921533fe
+      internalID: -519709654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 216
+        width: 41
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0956f5c54f6524e99630e39c5c3524
+      internalID: -1436635392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 216
+        width: 17
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ceefef471223ba4ea156081476d9195
+      internalID: -328130975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 216
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96574d71816e7744c843fe6303b3237e
+      internalID: 1869600145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 216
+        width: 20
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4a56921a059244c970703c24b6f07f
+      internalID: -740279663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 216
+        width: 42
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e4acc37694366418511eb2409c6219
+      internalID: 1807390182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 216
+        width: 29
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc9655e31ed89f47904a50cbae55495
+      internalID: -282584444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 216
+        width: 40
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d6426dd595d1648bd18ee7a2a811b9
+      internalID: 1118476003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 152
+        width: 15
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1efc815b803907478e9f09128dfc817
+      internalID: 1749135630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_25
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 152
+        width: 39
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dad14404cff3f04e8b33a03111e27df
+      internalID: -1418185186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_28
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 152
+        width: 42
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc43585813acdb43b68209760e965a7
+      internalID: -43823101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_29
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 152
+        width: 41
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1758a07ed51adfb48bf4465dd76ed920
+      internalID: -2145974267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_30
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 152
+        width: 17
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caab5941ce5f55045b8a302a561caa60
+      internalID: -1190279804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_31
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 152
+        width: 16
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c3505e45e2d194db0f4247f3f54e73
+      internalID: 70436832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_32
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 152
+        width: 20
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f23da54ffd2574789c4ddbf016e45c
+      internalID: 762843627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_37
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 152
+        width: 42
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c596d71ef76abd49a140cabee8b6f79
+      internalID: -962779221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_39
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 152
+        width: 29
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4917cef920d83944bbc3e2e51f317d79
+      internalID: -1622640512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_42
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 152
+        width: 40
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df17f1162b10c841b10a4d9213cbb95
+      internalID: -1877452054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_44
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 88
+        width: 14
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291aaf0c10fc9004d88b5552e8ada4a7
+      internalID: 229050996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_47
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 88
+        width: 39
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e54072904cd7e4299b517739bf1c31
+      internalID: 443232796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_50
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 88
+        width: 42
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1128d866dc896f7449d00824cd333919
+      internalID: -1436844504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_51
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 88
+        width: 41
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b39d714200c0da4c8666ffa750bc3e0
+      internalID: 1171032220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_52
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 88
+        width: 17
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7477b19d209df2849986515e614e233b
+      internalID: -1194819398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_53
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 88
+        width: 16
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844899379577c5f49a029c30d8699392
+      internalID: -2132479351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_54
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 88
+        width: 20
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27182c07f6382c74ea090f92727668ff
+      internalID: -166703964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_58
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 88
+        width: 42
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc3866c5db4e2a408d7a6f1fc75ab0c
+      internalID: -1175927897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_61
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 88
+        width: 29
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29923fd4e351dc448a8b8f9c3081d230
+      internalID: 1987475967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_64
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 88
+        width: 40
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5745f748e6a5e714b8b6b0bbb50107a5
+      internalID: -947730461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_66
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 24
+        width: 14
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895bc8656f70a2c43923c58a28f03101
+      internalID: -1113214429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_69
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 24
+        width: 39
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04f4fc1646781e4ab688daf9da30e9a
+      internalID: 1003404188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_71
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 25
+        width: 42
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629be18ec05a42941aab4f21ec3ac230
+      internalID: 681252433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_73
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 24
+        width: 42
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf985e48d8fbc345b4a511698996e1b
+      internalID: -967793254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_74
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 24
+        width: 41
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f688bce5c16b94a8d1d10c103d83a5
+      internalID: -1830139603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_75
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24
+        width: 17
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6b33ac19a525f42897216cb117846d
+      internalID: 1410578623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_76
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 24
+        width: 16
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c912b1002fec02c4db1218cc08d743d5
+      internalID: 81433599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_77
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 24
+        width: 20
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced9860b93afdaa429664466a63bcc69
+      internalID: 1025699613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_83
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 24
+        width: 29
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953c27933964ba54aa379c3d626d3e05
+      internalID: -929053054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime3_Death_without_shadow_86
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 24
+        width: 40
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e70ee7ba5c2f4043b04439f5eb079f2
+      internalID: -430588782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Slime3_Death_without_shadow_0: -397243529
+      Slime3_Death_without_shadow_1: -666921587
+      Slime3_Death_without_shadow_10: -740279663
+      Slime3_Death_without_shadow_11: 1233659102
+      Slime3_Death_without_shadow_12: -1539291935
+      Slime3_Death_without_shadow_13: -109146587
+      Slime3_Death_without_shadow_14: 1807390182
+      Slime3_Death_without_shadow_15: -1533655311
+      Slime3_Death_without_shadow_16: 1564181010
+      Slime3_Death_without_shadow_17: -282584444
+      Slime3_Death_without_shadow_18: -605556975
+      Slime3_Death_without_shadow_19: -643737957
+      Slime3_Death_without_shadow_2: -327437287
+      Slime3_Death_without_shadow_20: 1118476003
+      Slime3_Death_without_shadow_21: 1055465969
+      Slime3_Death_without_shadow_22: 1749135630
+      Slime3_Death_without_shadow_23: 1248063337
+      Slime3_Death_without_shadow_24: 966657529
+      Slime3_Death_without_shadow_25: -1418185186
+      Slime3_Death_without_shadow_26: 1940663510
+      Slime3_Death_without_shadow_27: 527362127
+      Slime3_Death_without_shadow_28: -43823101
+      Slime3_Death_without_shadow_29: -2145974267
+      Slime3_Death_without_shadow_3: 543799745
+      Slime3_Death_without_shadow_30: -1190279804
+      Slime3_Death_without_shadow_31: 70436832
+      Slime3_Death_without_shadow_32: 762843627
+      Slime3_Death_without_shadow_33: 513753370
+      Slime3_Death_without_shadow_34: 601917597
+      Slime3_Death_without_shadow_35: -327797932
+      Slime3_Death_without_shadow_36: 1425762249
+      Slime3_Death_without_shadow_37: -962779221
+      Slime3_Death_without_shadow_38: 1206330106
+      Slime3_Death_without_shadow_39: -1622640512
+      Slime3_Death_without_shadow_4: -82328061
+      Slime3_Death_without_shadow_40: 1017018937
+      Slime3_Death_without_shadow_41: 846349548
+      Slime3_Death_without_shadow_42: -1877452054
+      Slime3_Death_without_shadow_43: 1014113176
+      Slime3_Death_without_shadow_44: 229050996
+      Slime3_Death_without_shadow_45: 1680169394
+      Slime3_Death_without_shadow_46: 1543142244
+      Slime3_Death_without_shadow_47: 443232796
+      Slime3_Death_without_shadow_48: -1866414438
+      Slime3_Death_without_shadow_49: -1170432488
+      Slime3_Death_without_shadow_5: -158994674
+      Slime3_Death_without_shadow_50: -1436844504
+      Slime3_Death_without_shadow_51: 1171032220
+      Slime3_Death_without_shadow_52: -1194819398
+      Slime3_Death_without_shadow_53: -2132479351
+      Slime3_Death_without_shadow_54: -166703964
+      Slime3_Death_without_shadow_55: -486562731
+      Slime3_Death_without_shadow_56: 1745509282
+      Slime3_Death_without_shadow_57: -1488711238
+      Slime3_Death_without_shadow_58: -1175927897
+      Slime3_Death_without_shadow_59: -296752448
+      Slime3_Death_without_shadow_6: -519709654
+      Slime3_Death_without_shadow_60: 1387819268
+      Slime3_Death_without_shadow_61: 1987475967
+      Slime3_Death_without_shadow_62: -1515392002
+      Slime3_Death_without_shadow_63: -976513099
+      Slime3_Death_without_shadow_64: -947730461
+      Slime3_Death_without_shadow_65: -109631040
+      Slime3_Death_without_shadow_66: -1113214429
+      Slime3_Death_without_shadow_67: 510494855
+      Slime3_Death_without_shadow_68: 106175829
+      Slime3_Death_without_shadow_69: 1003404188
+      Slime3_Death_without_shadow_7: -1436635392
+      Slime3_Death_without_shadow_70: -2004298647
+      Slime3_Death_without_shadow_71: 681252433
+      Slime3_Death_without_shadow_72: -89631354
+      Slime3_Death_without_shadow_73: -967793254
+      Slime3_Death_without_shadow_74: -1830139603
+      Slime3_Death_without_shadow_75: 1410578623
+      Slime3_Death_without_shadow_76: 81433599
+      Slime3_Death_without_shadow_77: 1025699613
+      Slime3_Death_without_shadow_78: -532352107
+      Slime3_Death_without_shadow_79: -696468192
+      Slime3_Death_without_shadow_8: -328130975
+      Slime3_Death_without_shadow_80: 1594849270
+      Slime3_Death_without_shadow_81: -616425626
+      Slime3_Death_without_shadow_82: -1623011247
+      Slime3_Death_without_shadow_83: -929053054
+      Slime3_Death_without_shadow_84: 998021955
+      Slime3_Death_without_shadow_85: 669921607
+      Slime3_Death_without_shadow_86: -430588782
+      Slime3_Death_without_shadow_87: -1960356800
+      Slime3_Death_without_shadow_9: 1869600145
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
