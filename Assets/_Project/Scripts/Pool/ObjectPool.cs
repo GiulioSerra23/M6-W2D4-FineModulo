@@ -6,6 +6,8 @@ public class ObjectPool: MonoBehaviour
 {
     [SerializeField] private PoolableObject _prefab;
     [SerializeField] private int _poolSize = 20;
+    [SerializeField] private bool _expandable = false;
+    [SerializeField] private int _maxPoolSize = 40;
 
     private Queue<PoolableObject> _available;
     private List<PoolableObject> _objects = new List<PoolableObject>();

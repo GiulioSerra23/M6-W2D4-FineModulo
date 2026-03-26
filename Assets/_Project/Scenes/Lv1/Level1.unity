@@ -4838,6 +4838,8 @@ MonoBehaviour:
   _prefab: {fileID: -2728027961897149452, guid: 610dddda73edc5446be7d42418d19bea,
     type: 3}
   _poolSize: 10
+  _expandable: 0
+  _maxPoolSize: 10
 --- !u!1001 &111551483
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29116,6 +29118,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _prefab: {fileID: 5849660666739554419, guid: ec18c9084fcdc3848ac18ffc51954f4a, type: 3}
   _poolSize: 10
+  _expandable: 0
+  _maxPoolSize: 10
 --- !u!4 &576776935 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: accca47bc96f9b543a486f6295e46fc5,
@@ -49026,6 +49030,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _prefab: {fileID: 4764003705056445552, guid: 6badd320ddd91854182f6eb5226214fa, type: 3}
   _poolSize: 20
+  _expandable: 0
+  _maxPoolSize: 10
 --- !u!1001 &939108988
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64804,6 +64810,8 @@ MonoBehaviour:
   _prefab: {fileID: -6537326528701118262, guid: 75018b44c3035f84898cae4b0b38b4df,
     type: 3}
   _poolSize: 20
+  _expandable: 0
+  _maxPoolSize: 10
 --- !u!1 &1237447652 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2847706896516912704, guid: 41562db3d5553e64ab2842aff94facf9,
@@ -77046,6 +77054,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _prefab: {fileID: 3273823568672907191, guid: 0bf7733b05fb2074488108e815b8e2f4, type: 3}
   _poolSize: 20
+  _expandable: 0
+  _maxPoolSize: 10
 --- !u!1 &1520940616
 GameObject:
   m_ObjectHideFlags: 0
@@ -80598,6 +80608,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _prefab: {fileID: 725924607245890177, guid: bedd1f4fb8e2d7b468727654969a322f, type: 3}
   _poolSize: 20
+  _expandable: 0
+  _maxPoolSize: 10
 --- !u!4 &1575376481 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 123c7dced93c52146b4904431fcc1671,
@@ -89167,6 +89179,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _prefab: {fileID: 5849660666739554419, guid: 4f17fd5b4c719d4419570f7b1cee49b3, type: 3}
   _poolSize: 20
+  _expandable: 0
+  _maxPoolSize: 10
 --- !u!1001 &1761634240
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -104219,6 +104233,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _prefab: {fileID: -580640882752028898, guid: 8fe96e2289cda7f4b8695866c8921913, type: 3}
   _poolSize: 20
+  _expandable: 0
+  _maxPoolSize: 10
 --- !u!1 &2059939730 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3810262214991764955, guid: 69a62abd39cafff4588692817f1d43fa,
@@ -111928,6 +111944,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6397744535690148490, guid: ac882db69b192964ca33f0b99e1df9c8,
         type: 3}
+      propertyPath: _radius
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397744535690148490, guid: ac882db69b192964ca33f0b99e1df9c8,
+        type: 3}
+      propertyPath: _rotateSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397744535690148490, guid: ac882db69b192964ca33f0b99e1df9c8,
+        type: 3}
       propertyPath: _startOnTrigger
       value: 0
       objectReference: {fileID: 0}
@@ -111979,6 +112005,16 @@ PrefabInstance:
     - target: {fileID: 7500347361700392827, guid: ac882db69b192964ca33f0b99e1df9c8,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8372440264205451397, guid: ac882db69b192964ca33f0b99e1df9c8,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 62
+      objectReference: {fileID: 0}
+    - target: {fileID: 8372440264205451397, guid: ac882db69b192964ca33f0b99e1df9c8,
+        type: 3}
+      propertyPath: m_IsKinematic
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

@@ -27,6 +27,8 @@ public class Bullet : PoolableObject
         _rb.angularVelocity = Vector3.zero;
     }
 
+    public override void OnDespawned() { }
+
     protected virtual void OnCollisionEnter(Collision collision)
     {
         if (TryGetComponent<SpawnTrapOnCollision>(out var trapSpawner))

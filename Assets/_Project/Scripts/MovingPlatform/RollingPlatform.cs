@@ -10,7 +10,7 @@ public class RollingPlatform : MovingPlatform
     [SerializeField] private float _radius;
     [SerializeField] private LayerMask _layerMask;
 
-    private Collider[] _hits;
+    private Collider[] _hits = new Collider[10];
     private Rigidbody _rb;
 
     private void Awake()
@@ -20,30 +20,28 @@ public class RollingPlatform : MovingPlatform
 
     protected override void Move()
     {
-        RotateSpeed();
+        RotatePlatform();
         PushPlayer();
     }
 
-    private float RotateSpeed()
+    private void RotatePlatform()
     {
-        float deltaAngle = _rotateSpeed;
-        transform.Rotate(Vector3.forward, deltaAngle);
-
-        float tangentialVel = Mathf.Deg2Rad * deltaAngle * _radius;
-        return tangentialVel;
+        _rb.angularVelocity = transform.forward * _rotateSpeed;
     }
 
     private void PushPlayer()
     {
-        _hits = Physics.OverlapSphere(_rb.position, _radius, _layerMask);
-        foreach (Collider hit in _hits)
+        int count = Physics.OverlapSphereNonAlloc(_rb.position, _radius, _hits, _layerMask);
+        
+        for (int i = 0; i < count; i++)
         {
-            if (!hit.TryGetComponent<Rigidbody>(out var playerRb)) return;
+            Collider hit = _hits[i];
+            if (!hit.TryGetComponent<Rigidbody>(out var playerRb)) continue;
 
-            Vector3 pushDir = Vector3.forward * _speed;
+            Vector3 contactPoint = hit.transform.position;
+            Vector3 surfaceVelocity = _rb.GetPointVelocity(contactPoint);
 
-            float forceStrenght = RotateSpeed();
-            playerRb.AddForce(pushDir * forceStrenght, ForceMode.VelocityChange);
+            playerRb.AddForce(surfaceVelocity, ForceMode.VelocityChange);
         }
     }
 }
