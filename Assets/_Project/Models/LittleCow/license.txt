@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cow Havest moon
+* source:	https://sketchfab.com/3d-models/cow-havest-moon-63df810258e54614b56ae2d07fb4f68a
+* author:	Smoon (https://sketchfab.com/Smoon.Vu)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cow Havest moon" (https://sketchfab.com/3d-models/cow-havest-moon-63df810258e54614b56ae2d07fb4f68a) by Smoon (https://sketchfab.com/Smoon.Vu) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

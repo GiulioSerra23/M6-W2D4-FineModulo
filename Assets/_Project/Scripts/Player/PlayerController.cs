@@ -1,48 +1,56 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
-public class PlayerController : Creature
+public class PlayerController : MonoBehaviour
 {
+    [SerializeField] private float _sprintMultiplier = 1.8f;
+
+    private Mover3D _mover;
+    private AnimationParamHandler _animHandler;
+    private Vector3 _direction;
+
     private float _horizontal;
     private float _vertical;
-    private float _level;    
+    private bool  _isSprinting;
 
-    public float Level { get => _level; set => _level = value; }
-
-    public int Damage { get => _damage; set => _damage = value; }
-
-    public Vector2 Direction { get; private set; }
-
-    public void SetLevel()
+    private void Awake()
     {
-        _level++;
-        _animHandler.SetLevel(_level);
+        _mover = GetComponent<Mover3D>();
+        _animHandler = GetComponent<AnimationParamHandler>();
     }
 
     private void Update()
     {
-        if (!CanMove) return;
+        if (UI_State.IsUIOpen) return;
 
-        _horizontal = Input.GetAxisRaw(Inputs.Horizontal);
-        _vertical = Input.GetAxisRaw(Inputs.Vertical);
+        _horizontal = Input.GetAxis(Inputs.Horizontal);
+        _vertical = Input.GetAxis(Inputs.Vertical);
 
-        Direction = new Vector2(_horizontal, _vertical);
+        _direction = new Vector3(_horizontal, 0f, _vertical);
 
-        _mover2D.SetAndNormalizeInput(Direction);
+        _isSprinting = Input.GetKey(KeyCode.LeftShift) && _direction.magnitude > 0.1f;
 
-        if (_animHandler != null) _animHandler.SetDirectionAndSetMoving(Direction);
+        if (Input.GetButtonDown(Inputs.Space))
+        {
+            _mover.Jump();
+        }
+
+        if (_isSprinting)
+        {
+            _mover.SetSpeedMultiplier(_sprintMultiplier);
+        }
+        else
+        {
+            _mover.ResetSpeedMultiplier();
+        }
+
+        float animSpeed = _direction.magnitude * (_isSprinting ? 1.5f : 1f);
+
+        _animHandler.SetForward(animSpeed);
     }
-
 
     private void FixedUpdate()
     {
-        if (!CanMove)
-        {
-            _mover2D.Stop();
-            return;
-        }
-
-        _mover2D.Move();
+        _mover.SetMovementInput(_direction);        
     }
 }

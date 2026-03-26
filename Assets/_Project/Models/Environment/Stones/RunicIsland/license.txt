@@ -1,0 +1,11 @@
+Model Information:
+* title:	flying rock - celtic runes
+* source:	https://sketchfab.com/3d-models/flying-rock-celtic-runes-34c9d298c80944329452d8d59b3720c8
+* author:	Riccardo Mazzi (https://sketchfab.com/jena)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "flying rock - celtic runes" (https://sketchfab.com/3d-models/flying-rock-celtic-runes-34c9d298c80944329452d8d59b3720c8) by Riccardo Mazzi (https://sketchfab.com/jena) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

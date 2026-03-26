@@ -1,0 +1,11 @@
+Model Information:
+* title:	Abandonded Cannon
+* source:	https://sketchfab.com/3d-models/abandonded-cannon-6b5e3e378dd2488e86caef2308520eb8
+* author:	Cathal (https://sketchfab.com/cathalkelly)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Abandonded Cannon" (https://sketchfab.com/3d-models/abandonded-cannon-6b5e3e378dd2488e86caef2308520eb8) by Cathal (https://sketchfab.com/cathalkelly) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

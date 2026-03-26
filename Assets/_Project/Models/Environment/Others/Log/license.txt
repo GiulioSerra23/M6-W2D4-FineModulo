@@ -1,0 +1,11 @@
+Model Information:
+* title:	stylized trunk
+* source:	https://sketchfab.com/3d-models/stylized-trunk-5ea99a627ecf496fa38f3056d6195ffa
+* author:	LeandroRiquelme (https://sketchfab.com/LeandroRiquelme)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "stylized trunk" (https://sketchfab.com/3d-models/stylized-trunk-5ea99a627ecf496fa38f3056d6195ffa) by LeandroRiquelme (https://sketchfab.com/LeandroRiquelme) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

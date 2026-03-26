@@ -4,9 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy
+  - Ground
   - Bullet
-  - Weapon
   - Pet
   layers:
   - Default
@@ -15,10 +14,10 @@ TagManager:
   - Player
   - Water
   - UI
+  - Ground
   - Bullet
-  - Enemy
-  - Map
-  - Pet
+  - Turret
+  - Border
   - 
   - 
   - 
@@ -42,21 +41,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Ground
-    uniqueID: 2715426975
-    locked: 0
-  - name: Low_Walls
-    uniqueID: 2387373991
-    locked: 0
-  - name: ForeGround
-    uniqueID: 512759053
-    locked: 0
-  - name: Units
-    uniqueID: 807611581
-    locked: 0
-  - name: Top_Walls
-    uniqueID: 909302343
-    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
