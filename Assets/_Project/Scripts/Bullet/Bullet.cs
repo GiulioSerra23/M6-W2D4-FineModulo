@@ -41,7 +41,7 @@ public class Bullet : PoolableObject
             lifeController.TakeDamage(_damage);
         }
 
-        AudioManager.Instance.Play(_collisionSound);
+        AudioManager.Instance.Play3D(_collisionSound, transform);
         Release();
     }
 }

@@ -2,7 +2,8 @@
 using UnityEngine;
 
 public class PlayerRespawn : MonoBehaviour
-{    private LifeController _lifeController;
+{   
+    private LifeController _lifeController;
     private AttachableMovement _attachableMovement;
     private Mover3D _mover;
 

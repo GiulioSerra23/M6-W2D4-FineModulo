@@ -1,20 +1,22 @@
 
+using System;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class LifeController : MonoBehaviour
+public class LifeController : GenericSingleton<LifeController>
 {
-    [Header("Sound ID")]
+    [Header ("Sound ID")]
     [SerializeField] protected SoundID _hitAudio;
 
-    [Header("Life Settings")]
+    [Header ("Life Settings")]
     [SerializeField] private int _maxHp;
     [SerializeField] private int _currentHp;
     [SerializeField] private bool _startFullHp = true;
 
-    [Header("Events")]
-    [SerializeField] private UnityEvent<int> _onHpChanged;
+    [Header ("Event")]
     [SerializeField] private UnityEvent _onDie;
+
+    public event Action<int> OnHpChanged;    
 
     public int CurrentHp { get => _currentHp; private set => SetHp(value); }
 
@@ -37,7 +39,7 @@ public class LifeController : MonoBehaviour
         if (hp != _currentHp)
         {
             _currentHp = hp;
-            _onHpChanged.Invoke(_currentHp);
+            OnHpChanged?.Invoke(_currentHp);
 
             if (_currentHp <= 0)
             {
@@ -51,6 +53,6 @@ public class LifeController : MonoBehaviour
     public void TakeDamage(int amount)
     {
         SetHp(_currentHp - amount);
-        AudioManager.Instance.Play(_hitAudio);
+        AudioManager.Instance.Play3D(_hitAudio, transform);
     }
 }

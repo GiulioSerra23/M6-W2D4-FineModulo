@@ -113,4 +113,10 @@ public class TriggerAction : MonoBehaviour
 
         _onExit.Invoke();
     }
+
+    protected virtual void OnDisable()
+    {
+        _isInside = false;
+        _hasActivated = false;
+    }
 }

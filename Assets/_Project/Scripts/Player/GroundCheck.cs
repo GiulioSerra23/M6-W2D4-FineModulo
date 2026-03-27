@@ -1,12 +1,10 @@
 
+using System;
 using UnityEngine;
 using UnityEngine.Events;
 
 public class GroundCheck : MonoBehaviour
-{
-    [Header ("Events")]
-    [SerializeField] private UnityEvent<bool> _onIsGroundedChange;
-
+{  
     [Header("Ground Check Settings")]
     [SerializeField] private float _radius = 0.45f;
     [SerializeField] private LayerMask _groundMask;
@@ -14,6 +12,7 @@ public class GroundCheck : MonoBehaviour
     [Header ("Debug")]
     [SerializeField] private bool _isGrounded = true;
 
+    public event Action<bool> OnIsGroundedChange;
     public bool IsGrounded => _isGrounded;
 
     public void CheckIsGrounded()
@@ -22,7 +21,7 @@ public class GroundCheck : MonoBehaviour
 
         _isGrounded = Physics.CheckSphere(transform.position, _radius, _groundMask);
 
-        if (wasGrounded != _isGrounded) _onIsGroundedChange.Invoke(_isGrounded);
+        if (wasGrounded != _isGrounded) OnIsGroundedChange?.Invoke(_isGrounded);
     }
 
     private void Update()

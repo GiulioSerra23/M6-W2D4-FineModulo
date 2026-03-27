@@ -39,7 +39,7 @@ public class DamageOnCollision : PoolableObject
 
     private void OnCollisionEnter(Collision collision)
     {
-        AudioManager.Instance.Play(_collisionSound);
+        AudioManager.Instance.Play3D(_collisionSound, transform);
 
         if (!collision.collider.CompareTag(Tags.Player)) return;
 

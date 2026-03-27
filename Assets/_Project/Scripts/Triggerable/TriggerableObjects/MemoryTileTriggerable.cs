@@ -2,13 +2,13 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class MemoryTileTriggerable : MonoBehaviour, ITriggerable
+public class MemoryTileTriggerable : MonoBehaviour, ITriggerable, IIdentificable
 {
     [Header ("References")]
     [SerializeField] private MemoryPuzzleManager _manager;
 
     [Header ("Tile Settings")]
-    [SerializeField] private int _id;    
+    [SerializeField] private ObjectID _id;   
 
     [Header ("Events")]
     [SerializeField] private UnityEvent _onTileLocked;
@@ -17,7 +17,7 @@ public class MemoryTileTriggerable : MonoBehaviour, ITriggerable
     private bool _isRevealed;
     private bool _isLocked;
 
-    public int ID => _id;
+    public ObjectID ID => _id;
 
     public void Reveal()
     {

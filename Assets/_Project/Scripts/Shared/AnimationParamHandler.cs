@@ -36,6 +36,10 @@ public class AnimationParamHandler : MonoBehaviour
     {
         _anim.SetTrigger(_jumpName);
     }
+    public void ResetOnJump()
+    {
+        _anim.ResetTrigger(_jumpName);
+    }
 
     public void OnPull()
     {

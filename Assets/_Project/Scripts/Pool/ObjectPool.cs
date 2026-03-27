@@ -55,7 +55,7 @@ public class ObjectPool: MonoBehaviour
     {
         obj.OnDespawned();
 
-        if (_available.Count > _poolSize)
+        if (_objects.Count > _poolSize)
         {
             _objects.Remove(obj);
             Destroy(obj.gameObject);

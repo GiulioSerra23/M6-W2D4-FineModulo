@@ -42,7 +42,7 @@ public abstract class TurretRayShooter : MonoBehaviour
         bullet.transform.position = _firePoint.position;
         bullet.transform.rotation = _firePoint.rotation;
         bullet.SetUp(direction, _speed);
-        AudioManager.Instance.Play(_shootSound);
+        AudioManager.Instance.Play3D(_shootSound, transform);
     }
 
     protected void ShootBasedOnUseRayCast(Vector3 direction)

@@ -17,6 +17,28 @@ public class PlayerController : MonoBehaviour
     {
         _mover = GetComponent<Mover3D>();
         _animHandler = GetComponent<AnimationParamHandler>();
+    }    
+
+    private void HandleJump()
+    {
+        if (Input.GetButtonDown(Inputs.Space))
+        {
+            _mover.Jump();
+        }
+    }
+
+    private void HandleSprint()
+    {
+        _isSprinting = Input.GetKey(KeyCode.LeftShift) && _direction.magnitude > 0.1f;
+
+        if (_isSprinting)
+        {
+            _mover.SetSpeedMultiplier(_sprintMultiplier);
+        }
+        else
+        {
+            _mover.ResetSpeedMultiplier();
+        }
     }
 
     private void Update()
@@ -28,21 +50,9 @@ public class PlayerController : MonoBehaviour
 
         _direction = new Vector3(_horizontal, 0f, _vertical);
 
-        _isSprinting = Input.GetKey(KeyCode.LeftShift) && _direction.magnitude > 0.1f;
+        HandleJump();
 
-        if (Input.GetButtonDown(Inputs.Space))
-        {
-            _mover.Jump();
-        }
-
-        if (_isSprinting)
-        {
-            _mover.SetSpeedMultiplier(_sprintMultiplier);
-        }
-        else
-        {
-            _mover.ResetSpeedMultiplier();
-        }
+        HandleSprint();
 
         float animSpeed = _direction.magnitude * (_isSprinting ? 1.5f : 1f);
 

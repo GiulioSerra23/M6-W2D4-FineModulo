@@ -1,26 +1,29 @@
-
 using UnityEngine;
 
 public class Mover3D : MonoBehaviour
 {
     [Header ("Movement Settings")]    
-    [SerializeField] protected float _baseSpeed = 4f;
+    [SerializeField] private float _baseSpeed = 4f;
     [SerializeField] private CameraOrbit _cameraOrbit;
 
     [Header ("Jump Settings")]
     [SerializeField] private GroundCheck _groundCheck;
-    [SerializeField] protected float _jumpForce = 4f;
+    [SerializeField] private float _jumpForce = 4f;
     [SerializeField] private int _maxJumps = 2;
 
-    protected AnimationParamHandler _animHandler;
-    protected Rigidbody _rb;
-    protected Vector3 _input;
+    private AnimationParamHandler _animHandler;
+    private Rigidbody _rb;
+    private Vector3 _input;
 
     private float _speedMultipier = 1f;
     private int _jumpCount;
-    protected bool _isJumping;
 
-    protected virtual void Awake()
+    private void OnEnable()
+    {
+        _groundCheck.OnIsGroundedChange += HandleGroundedChanged;
+    }
+
+    private void Awake()
     {
         _rb = GetComponent<Rigidbody>();
         _animHandler = GetComponent<AnimationParamHandler>();
@@ -43,21 +46,26 @@ public class Mover3D : MonoBehaviour
 
     public void Jump()
     {
-        if (_groundCheck.IsGrounded)
-        {
-            _jumpCount = 0;
-            _isJumping = false;
-        }
-
-        if (!_groundCheck.IsGrounded && _jumpCount == 0) return;
-
         if (_jumpCount >= _maxJumps) return;
 
-        _isJumping = true;
-        _jumpCount++;
-        _rb.AddForce(Vector3.up * _jumpForce, ForceMode.VelocityChange);
+        _jumpCount++;        
 
-        if (!_isJumping) _animHandler.OnJump();
+        Vector3 velocity = _rb.velocity;
+        velocity.y = _jumpForce;
+        _rb.velocity = velocity;
+
+        _animHandler.OnJump();
+    }
+
+    public void HandleGroundedChanged(bool isGrounded)
+    {
+        if (isGrounded)
+        {
+            _jumpCount = 0;
+            _animHandler.ResetOnJump();            
+        }
+
+        _animHandler.OnIsGroundedChanged(isGrounded);
     }
 
     private void Move()
@@ -88,7 +96,7 @@ public class Mover3D : MonoBehaviour
 
     private void MoveAndRotate()
     {
-        if (_input != Vector3.zero)
+        if (_input.sqrMagnitude > 0.01f)
         {
             Move();
             Rotate();
@@ -99,8 +107,13 @@ public class Mover3D : MonoBehaviour
         }
     }
 
-    protected virtual void FixedUpdate()
+    private void FixedUpdate()
     {
         MoveAndRotate();
+    }
+
+    private void OnDisable()
+    {
+        _groundCheck.OnIsGroundedChange -= HandleGroundedChanged;
     }
 }

@@ -22,6 +22,6 @@ public class FunctionsAnimationEvents : MonoBehaviour
 
     public void OnLeverPulled()
     {
-        AudioManager.Instance.Play(SoundID.PULL_LEVER);
+        AudioManager.Instance.Play3D(SoundID.PULL_LEVER, transform);
     }
 }
