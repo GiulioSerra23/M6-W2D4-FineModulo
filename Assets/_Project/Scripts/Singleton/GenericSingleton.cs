@@ -4,10 +4,10 @@ using UnityEngine;
 public abstract class GenericSingleton<T> : MonoBehaviour where T : MonoBehaviour
 {
     private static T _instance;
+    protected virtual bool ShouldBeDestroyedOnLoad { get; set; } = true;
 
     public static T Instance { get => _instance; private set => _instance = value; }
-
-    public static event Action OnSingletonReady;
+    public static event Action OnSingletonReady;    
 
     protected virtual void Awake()
     {
@@ -18,6 +18,7 @@ public abstract class GenericSingleton<T> : MonoBehaviour where T : MonoBehaviou
         }
 
         _instance = GetComponent<T>();
+        if (!ShouldBeDestroyedOnLoad) DontDestroyOnLoad(gameObject);
         OnSingletonReady?.Invoke();
     }
 

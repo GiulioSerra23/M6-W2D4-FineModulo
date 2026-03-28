@@ -1,61 +1,27 @@
 
+using System.Collections.Generic;
+using UnityEditor.Tilemaps;
+
 public class GameState : GenericSingleton<GameState>
 {
-    private bool _lifeReady;
+    protected override bool ShouldBeDestroyedOnLoad { get; set ; } = false;
 
     protected override void Awake()
     {
         base.Awake();
-        DontDestroyOnLoad(gameObject);
-        //LoadGame();
+        LoadGame();
     }
-
-    public void SetupRun()
-    {
-
-    }
-
-    #region INITIALIZE
 
     private void OnEnable()
     {
-        TryInit();
-
-        //if (!_lifeReady) LifeController.OnSingletonReady += OnLifeReady;
-    }
-
-    private void TryInit()
-    {
-        //if (LifeController.Instance != null) _lifeReady = true;
-
-        if (_lifeReady) Init();
-    }
-
-    private void Init()
-    {
-        //LifeController.Instance.OnDie += SaveState;
-
-        SaveState();
-    }
-
-    private void OnLifeReady()
-    {
-        _lifeReady = true;
-        TryInit();
-    }
-
-    private void OnPowerUpReady()
-    {
-        TryInit();
+        LevelProgression.OnProgressChanged += SaveState;
     }
 
     private void OnDisable()
     {
-
+        LevelProgression.OnProgressChanged -= SaveState;
     }
 
-    #endregion
-    
     #region SAVING
     private void SaveState()
     {
@@ -66,6 +32,8 @@ public class GameState : GenericSingleton<GameState>
     {
         SaveData data = new SaveData();
 
+        data.Levels = LevelProgression.GetLevels();
+
         return data;
     }
 
@@ -73,7 +41,14 @@ public class GameState : GenericSingleton<GameState>
     {
         SaveData data = SavingSystem.Load();
 
-        if (data == null) return;
+        if (data == null)
+        {
+            LevelProgression.SetLevels(new List<LevelData> { new LevelData { Unlocked = true, Completed = false } });
+            SaveState();
+            return;
+        }
+
+        LevelProgression.SetLevels(data.Levels);
     }
     #endregion
 }

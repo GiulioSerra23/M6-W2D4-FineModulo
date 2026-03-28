@@ -29,8 +29,6 @@ public class UI_LevelButton : MonoBehaviour
 
     private void Start()
     {
-        if (_levelIndex == 1) PlayerPrefs.SetInt("LevelUnlocked_1", 1);
-
         SetupButton();
         RefreshVisualState();
     }

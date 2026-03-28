@@ -17,14 +17,10 @@ public class UI_LifeFeedBack : MonoBehaviour
 
     private int _lastHp;
 
-    private void OnEnable()
-    {
-        LifeController.Instance.OnHpChanged += OnHpChanged;
-    }
-
     private void Start()
     {
         StartHp(LifeController.Instance.CurrentHp);
+        LifeController.Instance.OnHpChanged += OnHpChanged;
     }
 
     private void StartHp(int startingHp) => _lastHp = startingHp;
@@ -53,7 +49,7 @@ public class UI_LifeFeedBack : MonoBehaviour
         _overlay.gameObject.SetActive(false);
     }
 
-    private void OnDisable()
+    private void OnDestroy()
     {
         if (LifeController.Instance != null) LifeController.Instance.OnHpChanged -= OnHpChanged;
     }

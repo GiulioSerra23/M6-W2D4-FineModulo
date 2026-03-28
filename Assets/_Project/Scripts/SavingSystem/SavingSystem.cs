@@ -4,7 +4,7 @@ using UnityEngine;
 
 public static class SavingSystem
 {
-    static string path = Application.persistentDataPath + "/M6-BW2-Save.json";
+    static string path = Application.persistentDataPath + "/M6-W2D4-FineModulo-Save.json";
 
     private static bool ExistAPath()
     {

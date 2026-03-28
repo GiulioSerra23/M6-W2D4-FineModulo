@@ -1,16 +1,17 @@
 
+using System;
 using UnityEngine;
 using UnityEngine.Events;
 
 public class TimerManager : GenericSingleton<TimerManager>
 {
-    [Header ("Events")]
-    [SerializeField] private UnityEvent<float> _onTimeChanged;
+    [Header ("Event")]    
     [SerializeField] private UnityEvent _onTimeEnded;
 
     [Header ("Timer Settings")]
     [SerializeField] private float _timerDuration = 60f;
 
+    public event Action<float> OnTimeChanged;
     public float TimeLeft { get; private set; }
 
     private void Start()
@@ -37,7 +38,7 @@ public class TimerManager : GenericSingleton<TimerManager>
     private void UpdateTimer()
     {
         SetTime(TimeLeft -= Time.deltaTime);
-        _onTimeChanged.Invoke(TimeLeft);
+        OnTimeChanged?.Invoke(TimeLeft);
 
         if (TimeLeft <= 0f)
         {

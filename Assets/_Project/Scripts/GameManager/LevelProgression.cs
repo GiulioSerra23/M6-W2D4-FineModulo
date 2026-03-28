@@ -1,32 +1,72 @@
 
+using System;
+using System.Collections.Generic;
 using UnityEngine;
+
+[System.Serializable]
+public class LevelData
+{
+    public bool Unlocked { get; set; } = false;
+    public bool Completed { get; set; } = false;
+}
 
 public static class LevelProgression
 {
-    private static int _totalLevels = 2;
+    public static event Action OnProgressChanged;
+
+    private static List<LevelData> _levels = new List<LevelData>();
+
+    public static List<LevelData> GetLevels() => _levels;
+
+    public static void SetLevels(List<LevelData> levels)
+    {
+        _levels = levels;
+        if (_levels.Count == 0)
+        {
+            _levels.Add(new LevelData { Unlocked = true, Completed = false });
+        }
+    }
 
     public static void CompleteLevel(int levelIndex)
     {
-        PlayerPrefs.SetInt($"Level_{levelIndex}_Completed", 1);
+        EnsureLevelExists(levelIndex);
+        _levels[levelIndex - 1].Completed = true;
 
-        int nextLevel = levelIndex + 1;
-        if (nextLevel <= _totalLevels)
+        int nextLevelIndex = levelIndex;
+        if (nextLevelIndex <= _levels.Count)
         {
-            PlayerPrefs.SetInt($"Level_{nextLevel}_Unlocked", 1);
+            _levels[nextLevelIndex].Unlocked = true;
+        }
+        else
+        {
+            _levels.Add(new LevelData { Unlocked = true, Completed = false });
         }
        
-        PlayerPrefs.Save();
+        OnProgressChanged?.Invoke();
     }
 
     public static bool IsUnlocked(int levelIndex)
     {
-        if (levelIndex == 1) return true;
-
-        return PlayerPrefs.GetInt($"Level_{levelIndex}_Unlocked", 0) == 1;
+        EnsureLevelExists(levelIndex);
+        return _levels[levelIndex - 1].Unlocked;
     }
 
     public static bool IsCompleted(int levelIndex)
     {
-        return PlayerPrefs.GetInt($"Level_{levelIndex}_Completed", 0) == 1;
+        EnsureLevelExists(levelIndex);
+        return _levels[levelIndex - 1].Completed;
+    }
+
+    private static void EnsureLevelExists(int levelIndex)
+    {
+        while (_levels.Count < levelIndex)
+        {
+            _levels.Add(new LevelData());
+        }
+
+        if (_levels.Count > 0)
+        {
+            _levels[0].Unlocked = true;
+        }
     }
 }

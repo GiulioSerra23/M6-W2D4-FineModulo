@@ -1,9 +1,9 @@
+using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 [System.Serializable]
 public class SaveData
 {
-    public List<float> BestTimes;
-    public int TotalCoins;
-    public Dictionary<ObjectID, int> PowerUps;
+    public List<LevelData> Levels { get; set; }
 }
