@@ -36,7 +36,7 @@ public class AudioPoolable : PoolableObject
 
     private IEnumerator ReturnAfterPlayer(float duration)
     {
-        yield return new WaitForSeconds(duration);
+        yield return new WaitWhile(() => _source.isPlaying);
 
         Release();
     }
