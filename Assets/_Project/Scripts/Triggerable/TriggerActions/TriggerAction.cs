@@ -50,7 +50,7 @@ public class TriggerAction : MonoBehaviour
 
         _hasActivated = true;
 
-        AudioManager.Instance.Play3D(_triggerEnterSound, transform);
+        AudioManager.Instance.Play3DAttached(_triggerEnterSound, transform);
 
         foreach (var triggerable in _triggerables)
         {
@@ -104,7 +104,7 @@ public class TriggerAction : MonoBehaviour
         _isInside = false;
         if (_canRetrigger) _hasActivated = false;
 
-        AudioManager.Instance.Play3D(_triggerExitSound, transform);
+        AudioManager.Instance.Play3DAttached(_triggerExitSound, transform);
 
         foreach (var triggerable in _triggerables)
         {

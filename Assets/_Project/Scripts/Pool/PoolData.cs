@@ -10,6 +10,7 @@ public enum PoolType
 
     POOL_TRAP_SLOW,
     POOL_TRAP_LOG,
+    POOL_AUDIO_3D,
 }
 
 [System.Serializable]

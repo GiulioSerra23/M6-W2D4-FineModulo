@@ -18,7 +18,7 @@ public class SurfaceImpactAudioController : MonoBehaviour
             if (!hit.collider.TryGetComponent<SurfaceType>(out var surfaceType)) return;
 
             SoundID sound = ConvertSurfaceToSound(surfaceType.IDSurface, isFootStep);
-            AudioManager.Instance.Play3D(sound, transform);
+            AudioManager.Instance.Play3DAttached(sound, transform);
         }
     }
 

@@ -53,6 +53,6 @@ public class LifeController : GenericSingleton<LifeController>
     public void TakeDamage(int amount)
     {
         SetHp(_currentHp - amount);
-        AudioManager.Instance.Play3D(_hitAudio, transform);
+        AudioManager.Instance.Play3DAttached(_hitAudio, transform);
     }
 }

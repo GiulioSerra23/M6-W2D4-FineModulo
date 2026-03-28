@@ -11,7 +11,7 @@ public class Pickup : MonoBehaviour, IPickable
     public virtual void OnPick(GameObject picker)
     {
         _isPicked = true;
-        AudioManager.Instance.Play3D(_pickupSound, transform);
+        AudioManager.Instance.Play3DAttached(_pickupSound, transform);
     }
 
     private void OnTriggerEnter(Collider other)

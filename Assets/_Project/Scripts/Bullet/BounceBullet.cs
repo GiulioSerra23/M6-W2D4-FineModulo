@@ -5,7 +5,7 @@ public class BounceBullet : Bullet
 {
     protected override void OnCollisionEnter(Collision collision)
     {
-        AudioManager.Instance.Play3D(_collisionSound, transform);
+        AudioManager.Instance.Play3DAttached(_collisionSound, transform);
         if (collision.collider.CompareTag(Tags.Player))
         {
             Vector3 normal = collision.contacts[0].normal;
