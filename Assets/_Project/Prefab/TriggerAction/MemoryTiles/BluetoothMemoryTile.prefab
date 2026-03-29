@@ -124,7 +124,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ab2bf7c7db73f144a7ea634d9ec6bf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _canRetrigger: 1
   _rotationAngles: {x: 0, y: 180, z: 0}
   _rotationSpeed: 2
 --- !u!114 &4988972406733638090
@@ -141,6 +140,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _triggerEnterSound: 56
   _triggerExitSound: 100
+  _requiredID: 0
+  _canRetrigger: 1
   _tag: Bullet
   _useAnInput: 0
   _input: Interact
@@ -182,7 +183,7 @@ MonoBehaviour:
   _onTileLocked:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3033347092633338227}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChangeMaterialTriggerable, Assembly-CSharp
         m_MethodName: TriggerEnter
         m_Mode: 1
@@ -322,18 +323,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4739512424424791399}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3033347092633338227 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7772857180587039764, guid: 46badcba6cd41bd4c9725dadff7e6e32,
-    type: 3}
-  m_PrefabInstance: {fileID: 4739512424424791399}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de391e1fc6638f4f9d968075f9747ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &4303031376032451922 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 8822922534331977781, guid: 46badcba6cd41bd4c9725dadff7e6e32,

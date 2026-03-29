@@ -124,7 +124,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ab2bf7c7db73f144a7ea634d9ec6bf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _canRetrigger: 1
   _rotationAngles: {x: 0, y: 180, z: 0}
   _rotationSpeed: 2
 --- !u!114 &3241923969424653907
@@ -141,6 +140,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _triggerEnterSound: 56
   _triggerExitSound: 100
+  _requiredID: 0
+  _canRetrigger: 1
   _tag: Bullet
   _useAnInput: 0
   _input: Interact
@@ -150,7 +151,7 @@ MonoBehaviour:
   _onEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3612455937736089094}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
@@ -233,7 +234,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 3612455937736089094}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
@@ -256,17 +257,17 @@ PrefabInstance:
     - target: {fileID: 893036053271397860, guid: 398d47f7c8e7d4d46836ac73af582016,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 72.36602
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 893036053271397860, guid: 398d47f7c8e7d4d46836ac73af582016,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 72.36602
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 893036053271397860, guid: 398d47f7c8e7d4d46836ac73af582016,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 56.20327
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 893036053271397860, guid: 398d47f7c8e7d4d46836ac73af582016,
         type: 3}
@@ -281,7 +282,7 @@ PrefabInstance:
     - target: {fileID: 893036053271397860, guid: 398d47f7c8e7d4d46836ac73af582016,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.365
+      value: -0.421
       objectReference: {fileID: 0}
     - target: {fileID: 893036053271397860, guid: 398d47f7c8e7d4d46836ac73af582016,
         type: 3}
@@ -341,12 +342,6 @@ PrefabInstance:
 --- !u!4 &372811937019303411 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 893036053271397860, guid: 398d47f7c8e7d4d46836ac73af582016,
-    type: 3}
-  m_PrefabInstance: {fileID: 669010993943433239}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &3612455937736089094 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 4281454836900613649, guid: 398d47f7c8e7d4d46836ac73af582016,
     type: 3}
   m_PrefabInstance: {fileID: 669010993943433239}
   m_PrefabAsset: {fileID: 0}

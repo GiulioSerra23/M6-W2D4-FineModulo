@@ -48,6 +48,6 @@ public class DamageOnCollision : PoolableObject
         lifeController.TakeDamage(_damage);
 
         AudioManager.Instance.Play3DAttached(_collisionSound, transform);
-        ParticleManager.Instance.Play(_collisionParticle, transform);
+        ParticleManager.Instance.PlayAttached(_collisionParticle, transform);
     }
 }

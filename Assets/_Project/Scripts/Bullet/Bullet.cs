@@ -30,10 +30,9 @@ public class Bullet : PoolableObject
         _rb.angularVelocity = Vector3.zero;
     }
 
-    public override void OnDespawned()
-    {
-        AudioManager.Instance.Play3DPooled(_collisionSound, transform.position);
-        ParticleManager.Instance.Play(_collisionParticle, transform);
+    public override void OnDespawned()    {
+        
+        ParticleManager.Instance.PlayOnPosition(_collisionParticle, transform.position);
     }
 
     protected virtual void OnCollisionEnter(Collision collision)
@@ -49,5 +48,6 @@ public class Bullet : PoolableObject
         }
         
         Release();
+        AudioManager.Instance.Play3DPooled(_collisionSound, transform.position);
     }
 }

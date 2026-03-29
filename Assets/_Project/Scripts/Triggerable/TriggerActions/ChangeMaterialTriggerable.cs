@@ -10,7 +10,7 @@ public class ChangeMaterialTriggerable : MonoBehaviour, ITriggerable
 
     private void Awake()
     {
-        _renderer = GetComponent<Renderer>();
+        _renderer = GetComponentInChildren<Renderer>();
     }
 
     public void TriggerEnter(Collider other)

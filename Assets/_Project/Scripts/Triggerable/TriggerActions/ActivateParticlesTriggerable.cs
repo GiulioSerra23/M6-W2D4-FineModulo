@@ -10,7 +10,7 @@ public class ActivateParticlesTriggerable : MonoBehaviour, ITriggerable
 
     public void TriggerEnter(Collider other)
     {
-        ParticleManager.Instance.Play(_particleType, transform, _destroyAfterPlay);
+        ParticleManager.Instance.PlayAttached(_particleType, transform, _destroyAfterPlay);
     }
 
     public void TriggerExit(Collider other) { }

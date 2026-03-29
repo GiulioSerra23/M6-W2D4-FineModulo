@@ -25,11 +25,20 @@ public class ParticleManager : GenericSingleton<ParticleManager>
         }
     }
 
-    public void Play(ParticleType type, Transform parent, bool destroyAfterPlay = true)
+    public void PlayAttached(ParticleType type, Transform parent, bool destroyAfterPlay = true)
     {
         if (!_particleDictionary.TryGetValue(type, out var particle)) return;
 
         ParticleSystem newParticle = Instantiate(particle, parent.position, Quaternion.identity, parent);
+        newParticle.Play();
+        if (destroyAfterPlay) Destroy(newParticle.gameObject, newParticle.main.duration + newParticle.main.startLifetime.constantMax);
+    }
+
+    public void PlayOnPosition(ParticleType type, Vector3 pos, bool destroyAfterPlay = true)
+    {
+        if (!_particleDictionary.TryGetValue(type, out var particle)) return;
+
+        ParticleSystem newParticle = Instantiate(particle, pos, Quaternion.identity, transform);
         newParticle.Play();
         if (destroyAfterPlay) Destroy(newParticle.gameObject, newParticle.main.duration + newParticle.main.startLifetime.constantMax);
     }

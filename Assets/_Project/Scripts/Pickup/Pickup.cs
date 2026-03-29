@@ -15,7 +15,7 @@ public abstract class Pickup : MonoBehaviour, IPickable
     {
         _isPicked = true;
         AudioManager.Instance.Play2D(_pickupSound);
-        ParticleManager.Instance.Play(_pickupParticle, transform);
+        ParticleManager.Instance.PlayOnPosition(_pickupParticle, transform.position);
     }
 
     private void OnTriggerEnter(Collider other)

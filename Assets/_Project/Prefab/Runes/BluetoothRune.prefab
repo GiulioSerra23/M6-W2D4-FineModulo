@@ -60,6 +60,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _particleType: 30
+  _destroyAfterPlay: 0
 --- !u!1 &3504019534525146476
 GameObject:
   m_ObjectHideFlags: 0

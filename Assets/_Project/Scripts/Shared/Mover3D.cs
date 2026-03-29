@@ -68,7 +68,7 @@ public class Mover3D : MonoBehaviour
 
         _animHandler.OnIsGroundedChanged(isGrounded);
 
-        ParticleManager.Instance.Play(ParticleType.PARTICLE_JUMP_DUST, _particlePoint);
+        ParticleManager.Instance.PlayOnPosition(ParticleType.PARTICLE_JUMP_DUST, _particlePoint.position);
     }
 
     private void Move()

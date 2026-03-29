@@ -9,8 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 893036053271397860}
-  - component: {fileID: 4283150647273716094}
-  - component: {fileID: 4281454836900613649}
   - component: {fileID: 3155555694483138587}
   - component: {fileID: -1229067988956137611}
   m_Layer: 0
@@ -30,26 +28,79 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: 133.59, y: 1.931, z: 238.179}
-  m_LocalScale: {x: 77.872375, y: 77.872375, z: 60.479797}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 8051909226475134632}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &4283150647273716094
-MeshFilter:
+--- !u!114 &3155555694483138587
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4719103230493512336}
-  m_Mesh: {fileID: -8803937527578110353, guid: 5babfcf471c22e14aa9c76dd47621191, type: 3}
---- !u!23 &4281454836900613649
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5fe2487324bd14db965a990f16caed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _particleType: 30
+  _destroyAfterPlay: 0
+--- !u!114 &-1229067988956137611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4719103230493512336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8de391e1fc6638f4f9d968075f9747ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _material: {fileID: 2100000, guid: 374e836ccea8e9c4bad5b92ece6ce411, type: 2}
+--- !u!1 &8081982065327664901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8051909226475134632}
+  - component: {fileID: 510161314810956324}
+  - component: {fileID: 2414046064528213888}
+  m_Layer: 0
+  m_Name: Graphic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8051909226475134632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8081982065327664901}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 77.87238, y: 77.87238, z: 60.4798}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 893036053271397860}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &510161314810956324
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4719103230493512336}
+  m_GameObject: {fileID: 8081982065327664901}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -85,29 +136,11 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &3155555694483138587
-MonoBehaviour:
+--- !u!33 &2414046064528213888
+MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4719103230493512336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe5fe2487324bd14db965a990f16caed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _particleType: 30
---- !u!114 &-1229067988956137611
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4719103230493512336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de391e1fc6638f4f9d968075f9747ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _material: {fileID: 2100000, guid: 374e836ccea8e9c4bad5b92ece6ce411, type: 2}
+  m_GameObject: {fileID: 8081982065327664901}
+  m_Mesh: {fileID: -8803937527578110353, guid: 5babfcf471c22e14aa9c76dd47621191, type: 3}

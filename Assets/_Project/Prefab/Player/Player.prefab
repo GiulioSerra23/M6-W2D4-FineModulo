@@ -162,6 +162,7 @@ GameObject:
   - component: {fileID: 7009588575148406551}
   - component: {fileID: 2962931201809133405}
   - component: {fileID: 4362477312294372406}
+  - component: {fileID: 1991198625548310964}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -319,6 +320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _baseSpeed: 4
   _cameraOrbit: {fileID: 0}
+  _particlePoint: {fileID: 701976069294501617}
   _groundCheck: {fileID: 5991858595613355655}
   _jumpForce: 9
   _maxJumps: 2
@@ -382,6 +384,14 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   _origin: {fileID: 701976069294501617}
+--- !u!81 &1991198625548310964
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8329572573670251686}
+  m_Enabled: 1
 --- !u!1001 &6788102633610345543
 PrefabInstance:
   m_ObjectHideFlags: 0

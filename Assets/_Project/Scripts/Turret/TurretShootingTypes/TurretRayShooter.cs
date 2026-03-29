@@ -38,7 +38,11 @@ public abstract class TurretRayShooter : MonoBehaviour
         ObjectPool bulletPool = PoolManager.Instance.GetPool(_poolType);
         PoolableObject obj = bulletPool.GetObject();
         Bullet bullet = obj as Bullet;
-
+        if (bullet == null)
+        {
+            Debug.LogError($"The object from pool {_poolType} is not a Bullet.");
+            return;
+        }
         bullet.transform.position = _firePoint.position;
         bullet.transform.rotation = _firePoint.rotation;
         bullet.SetUp(direction, _speed);
