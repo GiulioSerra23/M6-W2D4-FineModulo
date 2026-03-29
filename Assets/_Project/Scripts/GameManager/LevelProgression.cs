@@ -30,9 +30,9 @@ public static class LevelProgression
     public static void CompleteLevel(int levelIndex)
     {
         EnsureLevelExists(levelIndex);
-        _levels[levelIndex - 1].Completed = true;
+        _levels[levelIndex].Completed = true;
 
-        int nextLevelIndex = levelIndex;
+        int nextLevelIndex = levelIndex + 1;
         if (nextLevelIndex <= _levels.Count)
         {
             _levels[nextLevelIndex].Unlocked = true;
@@ -48,18 +48,18 @@ public static class LevelProgression
     public static bool IsUnlocked(int levelIndex)
     {
         EnsureLevelExists(levelIndex);
-        return _levels[levelIndex - 1].Unlocked;
+        return _levels[levelIndex].Unlocked;
     }
 
     public static bool IsCompleted(int levelIndex)
     {
         EnsureLevelExists(levelIndex);
-        return _levels[levelIndex - 1].Completed;
+        return _levels[levelIndex].Completed;
     }
 
     private static void EnsureLevelExists(int levelIndex)
     {
-        while (_levels.Count < levelIndex)
+        while (_levels.Count <= levelIndex)
         {
             _levels.Add(new LevelData());
         }

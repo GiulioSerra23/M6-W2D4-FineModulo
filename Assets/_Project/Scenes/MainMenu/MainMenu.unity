@@ -420,7 +420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 064e4a6eebe393041955b0c83e735539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _levelIndex: 2
+  _levelIndex: 1
   _sceneName: Level2
   _lockOverlay: {fileID: 1973677320}
   _levelNumberImage: {fileID: 307480346}
@@ -5049,7 +5049,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 064e4a6eebe393041955b0c83e735539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _levelIndex: 1
+  _levelIndex: 0
   _sceneName: Level1
   _lockOverlay: {fileID: 887500040}
   _levelNumberImage: {fileID: 1076148440}

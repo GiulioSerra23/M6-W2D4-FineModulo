@@ -30,8 +30,8 @@ public class Bullet : PoolableObject
         _rb.angularVelocity = Vector3.zero;
     }
 
-    public override void OnDespawned()    {
-        
+    public override void OnDespawned()    
+    {        
         ParticleManager.Instance.PlayOnPosition(_collisionParticle, transform.position);
     }
 
