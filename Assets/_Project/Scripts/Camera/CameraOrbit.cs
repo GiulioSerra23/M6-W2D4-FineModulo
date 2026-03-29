@@ -1,30 +1,39 @@
 
+using Cinemachine;
 using UnityEngine;
 
 public class CameraOrbit : MonoBehaviour
 {
     [Header ("Camera Settings")]
-    [SerializeField] private Transform _target;
-    [SerializeField] private Vector3 _offset;
-    [SerializeField] private float _rotationSpeed = 2f;
+    [SerializeField] private CinemachineFreeLook _freeLook;
 
-    [Header ("Pitch Settings")]
-    [SerializeField] private float _minYAngle = 0f;
-    [SerializeField] private float _maxYAngle = 50f;
-
-    [Header("Zoom Settings")]
-    [SerializeField] private float _distance = 5f;
+    [Header ("Zoom Settings")]
     [SerializeField] private float _zoomSpeed = 5f;
     [SerializeField] private float _minZoom = 2f;
     [SerializeField] private float _maxZoom = 8f;
 
-    private float _pitch;
-    private float _yaw;
+    [Header ("Zoom Multiplier")]
+    [SerializeField] private float _topRadiusMultiplier = 0.5f;
+    [SerializeField] private float _topHeightMultiplier = 0.5f;
+
+    [SerializeField] private float _middleHeightMultiplier = 0.3f;
+
+    [SerializeField] private float _bottomRadiusMultiplier = 0.5f;
+    [SerializeField] private float _bottomHeightMultiplier = 0.1f;    
+
+    private float _currentZoom;
+    private Camera _camera;
+
+    private void Awake()
+    {
+        _camera = Camera.main;
+    }
 
     private void Start()
     {
         LockMouse();
     }
+
     public void LockMouse()
     {
         Cursor.lockState = CursorLockMode.Locked;
@@ -34,14 +43,31 @@ public class CameraOrbit : MonoBehaviour
     {
         float scroll = Input.GetAxis(Inputs.ScrollWheel);
 
-        _distance -= scroll * _zoomSpeed;
-        _distance = Mathf.Clamp(_distance, _minZoom, _maxZoom );
+        _currentZoom -= scroll * _zoomSpeed;
+        _currentZoom = Mathf.Clamp(_currentZoom, _minZoom, _maxZoom );
+
+        SetZoom(_currentZoom);
+    }
+
+    private void SetZoom(float zoom)
+    {
+        float middleRadius = zoom;
+        float topRadius = middleRadius * _topRadiusMultiplier;
+        float bottomRadius = middleRadius * _bottomRadiusMultiplier;
+
+        _freeLook.m_Orbits[0].m_Radius = topRadius;
+        _freeLook.m_Orbits[1].m_Radius = middleRadius;
+        _freeLook.m_Orbits[2].m_Radius = bottomRadius;
+
+        _freeLook.m_Orbits[0].m_Height = zoom * _topHeightMultiplier;
+        _freeLook.m_Orbits[1].m_Height = zoom * _middleHeightMultiplier;
+        _freeLook.m_Orbits[2].m_Height = zoom * _bottomHeightMultiplier;
     }
 
     public Vector3 ConvertInputToCameraDirection(Vector3 input)
     {
-        Vector3 cameraForward = transform.forward;
-        Vector3 cameraRight = transform.right;
+        Vector3 cameraForward = _camera.transform.forward;
+        Vector3 cameraRight = _camera.transform.right;
 
         Vector3 moveDir = cameraForward * input.z + cameraRight * input.x;
         moveDir.y = 0;
@@ -51,32 +77,10 @@ public class CameraOrbit : MonoBehaviour
         return moveDir;
     }
 
-    private void HandleRotation()
-    {
-        _yaw += Input.GetAxis(Inputs.MouseX) * _rotationSpeed;
-        _pitch -= Input.GetAxis(Inputs.MouseY) * _rotationSpeed;
-        _pitch = Mathf.Clamp(_pitch, _minYAngle, _maxYAngle);
-    }
-
-    private void UpdateCameraPosition()
-    {
-        Quaternion rotation = Quaternion.Euler(_pitch, _yaw, 0);
-
-        Vector3 direction = rotation * Vector3.back;
-        Vector3 desideredPosition = _target.position + direction * _distance;
-
-        Vector3 lookAt = _target.position + _offset;
-        Quaternion lookRotation = Quaternion.LookRotation(lookAt - desideredPosition);
-        transform.SetPositionAndRotation(desideredPosition, lookRotation);
-    }
-
     private void LateUpdate()
     {
         if (UI_State.IsUIOpen) return;
-        if (_target == null) return;
 
-        HandleRotation();
         HandleZoom();
-        UpdateCameraPosition();
     }
 }

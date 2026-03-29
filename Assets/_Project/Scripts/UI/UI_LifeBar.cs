@@ -8,10 +8,11 @@ public class UI_LifeBar : MonoBehaviour
     [SerializeField] private Image[] _hearts;
     [SerializeField] private Sprite _fullHeartSprite;
     [SerializeField] private Sprite _emptyHeartSprite;
+    [SerializeField] private LifeController _lifeController;
 
     private void Start()
     {
-        LifeController.Instance.OnHpChanged += UpdateLifeBar;
+        _lifeController.OnHpChanged += UpdateLifeBar;
     }
 
     public void UpdateLifeBar(int currentHp)
@@ -24,6 +25,6 @@ public class UI_LifeBar : MonoBehaviour
 
     private void OnDestroy()
     {
-        if (LifeController.Instance != null) LifeController.Instance.OnHpChanged -= UpdateLifeBar;
+        if (_lifeController != null) _lifeController.OnHpChanged -= UpdateLifeBar;
     }
 }

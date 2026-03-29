@@ -63,7 +63,7 @@ public class AudioManager : GenericSingleton<AudioManager>
 
         AudioClip clip = sound.Clips[Random.Range(0, sound.Clips.Length)];
 
-        PoolableObject obj = PoolManager.Instance.GetPool(PoolType.POOL_AUDIO_3D).GetObject();
+        PoolableObject obj = PoolManager.Instance.GetPool(PoolType.POOL_AUDIOSOURCE).GetObject();
         if (obj is not AudioPoolable audio) return;
 
         audio.transform.position = position;

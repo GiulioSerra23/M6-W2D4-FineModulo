@@ -32,6 +32,37 @@ Transform:
   - {fileID: 6466771162516003756}
   m_Father: {fileID: 2888588234466547315}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3253825023531211898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1843217455691775460}
+  m_Layer: 3
+  m_Name: CamLooker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1843217455691775460
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3253825023531211898}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.008, y: 1.541, z: 0.221}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2888588234466547315}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7352409347618089548
 GameObject:
   m_ObjectHideFlags: 0
@@ -76,21 +107,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80581f9e90b10f04fb6238f202d8415f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onIsGroundedChange:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7009588575148406551}
-        m_TargetAssemblyTypeName: AnimationParamHandler, Assembly-CSharp
-        m_MethodName: OnIsGroundedChanged
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   _radius: 0.45
   _groundMask:
     serializedVersion: 2
@@ -169,6 +185,7 @@ Transform:
   - {fileID: 5186237437946606259}
   - {fileID: 3212155723788426585}
   - {fileID: 701976069294501617}
+  - {fileID: 1843217455691775460}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!136 &3311448531401036741
@@ -260,33 +277,6 @@ MonoBehaviour:
   _maxHp: 10
   _currentHp: 10
   _startFullHp: 1
-  _onHpChanged:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UI_LifeFeedBack, Assembly-CSharp
-        m_MethodName: OnHpChanged
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UI_LifeBar, Assembly-CSharp
-        m_MethodName: UpdateLifeBar
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   _onDie:
     m_PersistentCalls:
       m_Calls:
@@ -314,7 +304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b07437cabca64734f96f8e8c724c8501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sprintMultiplier: 1.8
+  _sprintMultiplier: 1.5
 --- !u!114 &8171360209490734103
 MonoBehaviour:
   m_ObjectHideFlags: 0

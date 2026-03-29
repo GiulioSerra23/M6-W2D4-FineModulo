@@ -3,10 +3,11 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UI_LifeFeedBack : MonoBehaviour
+public class UI_LifeFeedBack : GenericSingleton<UI_LifeFeedBack>
 {
     [Header ("References")]
     [SerializeField] private Image _overlay;
+    [SerializeField] private LifeController _lifeController;
 
     [Header("Settings")]
     [SerializeField] private Color _hitColor = new Color(1f, 0f, 0f, 0.3f);
@@ -14,19 +15,26 @@ public class UI_LifeFeedBack : MonoBehaviour
     [SerializeField] private float _overlayDuration = 1;
 
     private Coroutine _overlayRoutine;
-
+    private bool _ignoreNextHpChange;
     private int _lastHp;
 
     private void Start()
     {
-        StartHp(LifeController.Instance.CurrentHp);
-        LifeController.Instance.OnHpChanged += OnHpChanged;
+        StartHp(_lifeController.CurrentHp);
+        _lifeController.OnHpChanged += OnHpChanged;
     }
 
     private void StartHp(int startingHp) => _lastHp = startingHp;
 
     public void OnHpChanged(int currentHp)
     {
+        if (_ignoreNextHpChange)
+        {
+            _ignoreNextHpChange = false;
+            _lastHp = currentHp;
+            return;
+        }
+
         int delta = currentHp - _lastHp;
         _lastHp = currentHp;
         
@@ -40,6 +48,12 @@ public class UI_LifeFeedBack : MonoBehaviour
         _overlayRoutine = StartCoroutine(OverlayRoutine());
     }
 
+    public void ResetFeedBack(int newHp)
+    {
+        _lastHp = newHp;
+        _ignoreNextHpChange = true;
+    }
+
     private IEnumerator OverlayRoutine()
     {
         _overlay.gameObject.SetActive(true);
@@ -47,10 +61,11 @@ public class UI_LifeFeedBack : MonoBehaviour
         yield return new WaitForSeconds(_overlayDuration);
 
         _overlay.gameObject.SetActive(false);
+        _overlayRoutine = null;
     }
 
-    private void OnDestroy()
+    protected override void OnDestroy()
     {
-        if (LifeController.Instance != null) LifeController.Instance.OnHpChanged -= OnHpChanged;
+        if (_lifeController != null) _lifeController.OnHpChanged -= OnHpChanged;
     }
 }

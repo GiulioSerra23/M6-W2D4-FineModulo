@@ -19,9 +19,11 @@ public class PlayerRespawn : MonoBehaviour
         if (!CheckPointManager.Instance.HasCheckPoint()) return;
 
         transform.position = CheckPointManager.Instance.GetCheckPoint();
-        _lifeController.RestoreFullHp();
+
+        UI_LifeFeedBack.Instance.ResetFeedBack(_lifeController.MaxHp);
         _attachableMovement.ForceDetach();
         _mover.ResetMoveAndRotate();
         _mover.ResetSpeedMultiplier();
+        _lifeController.RestoreFullHp();        
     }
 }

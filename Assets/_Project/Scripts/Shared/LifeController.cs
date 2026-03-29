@@ -3,7 +3,7 @@ using System;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class LifeController : GenericSingleton<LifeController>
+public class LifeController : MonoBehaviour
 {
     [Header ("Sound ID")]
     [SerializeField] protected SoundID _hitAudio;
@@ -19,6 +19,7 @@ public class LifeController : GenericSingleton<LifeController>
     public event Action<int> OnHpChanged;    
 
     public int CurrentHp { get => _currentHp; private set => SetHp(value); }
+    public int MaxHp { get => _maxHp; private set => SetMaxHp(value); }
 
     private void Start()
     {
