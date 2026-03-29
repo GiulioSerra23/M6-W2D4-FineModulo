@@ -6,6 +6,9 @@ public class DamageOnCollision : PoolableObject
     [Header("Sound ID")]
     [SerializeField] private SoundID _collisionSound;
 
+    [Header("Particle Type")]
+    [SerializeField] protected ParticleType _collisionParticle;
+
     [Header ("Trap Settings")]
     [SerializeField] private int _damage;
     [SerializeField] private float _lifeSpan = 10f;
@@ -18,15 +21,14 @@ public class DamageOnCollision : PoolableObject
     public override void OnSpawned()
     {
         _lifeStartTime = Time.time;
-    }
 
-    public override void OnDespawned()
-    {
         if (_rb == null) _rb = GetComponent<Rigidbody>();
 
         _rb.velocity = Vector3.zero;
         _rb.angularVelocity = Vector3.zero;
     }
+
+    public override void OnDespawned() { }
 
     private void Update()
     {
@@ -39,12 +41,13 @@ public class DamageOnCollision : PoolableObject
 
     private void OnCollisionEnter(Collision collision)
     {
-        AudioManager.Instance.Play3DAttached(_collisionSound, transform);
-
         if (!collision.collider.CompareTag(Tags.Player)) return;
 
         if (!collision.collider.TryGetComponent<LifeController>(out var lifeController)) return;
 
         lifeController.TakeDamage(_damage);
+
+        AudioManager.Instance.Play3DAttached(_collisionSound, transform);
+        ParticleManager.Instance.Play(_collisionParticle, transform);
     }
 }

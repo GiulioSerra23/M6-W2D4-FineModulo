@@ -5,6 +5,7 @@ public class Mover3D : MonoBehaviour
     [Header ("Movement Settings")]    
     [SerializeField] private float _baseSpeed = 4f;
     [SerializeField] private CameraOrbit _cameraOrbit;
+    [SerializeField] private Transform _particlePoint;
 
     [Header ("Jump Settings")]
     [SerializeField] private GroundCheck _groundCheck;
@@ -66,6 +67,8 @@ public class Mover3D : MonoBehaviour
         }
 
         _animHandler.OnIsGroundedChanged(isGrounded);
+
+        ParticleManager.Instance.Play(ParticleType.PARTICLE_JUMP_DUST, _particlePoint);
     }
 
     private void Move()

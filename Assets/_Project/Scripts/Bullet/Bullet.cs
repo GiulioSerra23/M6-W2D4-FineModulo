@@ -6,6 +6,9 @@ public class Bullet : PoolableObject
     [Header ("Sound ID")]
     [SerializeField] protected SoundID _collisionSound;
 
+    [Header ("Particle Type")]
+    [SerializeField] protected ParticleType _collisionParticle;
+
     [Header("Bullet Settings")]
     [SerializeField] protected int _damage;
 
@@ -27,7 +30,11 @@ public class Bullet : PoolableObject
         _rb.angularVelocity = Vector3.zero;
     }
 
-    public override void OnDespawned() { }
+    public override void OnDespawned()
+    {
+        AudioManager.Instance.Play3DPooled(_collisionSound, transform.position);
+        ParticleManager.Instance.Play(_collisionParticle, transform);
+    }
 
     protected virtual void OnCollisionEnter(Collision collision)
     {
@@ -40,8 +47,7 @@ public class Bullet : PoolableObject
         {
             lifeController.TakeDamage(_damage);
         }
-
-        AudioManager.Instance.Play3DPooled(_collisionSound, transform.position);
+        
         Release();
     }
 }

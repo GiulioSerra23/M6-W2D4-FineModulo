@@ -51,7 +51,7 @@ public class AudioManager : GenericSingleton<AudioManager>
             source.spatialBlend = 1f;
         }
 
-        source.volume = 0.05f;
+        source.volume = 0.1f;
         source.pitch = Random.Range(0.95f, 1.05f);
         source.PlayOneShot(clip);
     }
@@ -68,7 +68,7 @@ public class AudioManager : GenericSingleton<AudioManager>
 
         audio.transform.position = position;
 
-        float volume = 0.05f;
+        float volume = 0.1f;
         float pitch = Random.Range(0.95f, 1.05f);
         audio.Play(clip, volume, pitch);
     }

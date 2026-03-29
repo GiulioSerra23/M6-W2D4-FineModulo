@@ -1,4 +1,7 @@
 
+using System;
+using UnityEngine;
+
 public enum PoolType
 {
     POOL_BULLET_LOG,
@@ -16,6 +19,9 @@ public enum PoolType
 [System.Serializable]
 public class PoolEntry
 {
-    public PoolType PoolType;
-    public ObjectPool Pool;
+    [SerializeField] PoolType _poolType;
+    [SerializeField] ObjectPool _pool;
+
+    public PoolType PoolType => _poolType;
+    public ObjectPool Pool => _pool;
 }

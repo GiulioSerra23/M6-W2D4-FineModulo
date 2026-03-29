@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6371599451162752631}
   - component: {fileID: 324725342073928994}
   - component: {fileID: 6668174979693058744}
+  - component: {fileID: 8414362163510544971}
   - component: {fileID: 178482658548899186}
   m_Layer: 0
   m_Name: CowRoomRune
@@ -84,6 +85,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8414362163510544971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5423414597125282370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5fe2487324bd14db965a990f16caed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _particleType: 30
 --- !u!114 &178482658548899186
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -70,7 +70,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _pickupSound: 20
-  _coinsManager: {fileID: 0}
+  _pickupParticle: 20
   _coinsAmount: 3
 --- !u!114 &-671376444920353415
 MonoBehaviour:
@@ -85,10 +85,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rotationType: 0
+  _hasToBeTriggered: 0
   _rotationAngles: {x: 0, y: 1, z: 0}
   _rotationSpeed: 15
   _swingAngle: 30
   _swingSpeed: 2
+  _target: {fileID: 0}
 --- !u!114 &-3571859554162838310
 MonoBehaviour:
   m_ObjectHideFlags: 0

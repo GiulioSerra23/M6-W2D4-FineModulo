@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3524776852854089000}
+  - component: {fileID: 4372462708304771504}
+  - component: {fileID: 640411418670468277}
   m_Layer: 0
   m_Name: HomoRune
   m_TagString: Untagged
@@ -32,6 +34,32 @@ Transform:
   - {fileID: 3053107864860064619}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4372462708304771504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964532428915958646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8de391e1fc6638f4f9d968075f9747ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _material: {fileID: 2100000, guid: 374e836ccea8e9c4bad5b92ece6ce411, type: 2}
+--- !u!114 &640411418670468277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964532428915958646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5fe2487324bd14db965a990f16caed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _particleType: 30
 --- !u!1 &2961153563215242024
 GameObject:
   m_ObjectHideFlags: 0
@@ -43,7 +71,6 @@ GameObject:
   - component: {fileID: 5249734157428638517}
   - component: {fileID: 738376924169770346}
   - component: {fileID: 2149142391645990010}
-  - component: {fileID: 8782296559816822602}
   m_Layer: 0
   m_Name: Torus.004
   m_TagString: Untagged
@@ -116,19 +143,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &8782296559816822602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2961153563215242024}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de391e1fc6638f4f9d968075f9747ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _material: {fileID: 2100000, guid: 374e836ccea8e9c4bad5b92ece6ce411, type: 2}
 --- !u!1 &8840645180995301632
 GameObject:
   m_ObjectHideFlags: 0

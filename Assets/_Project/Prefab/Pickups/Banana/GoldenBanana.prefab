@@ -70,7 +70,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _pickupSound: 22
-  _timeManager: {fileID: 0}
+  _pickupParticle: 20
   _timeAmount: 60
 --- !u!114 &3840313559090207927
 MonoBehaviour:
@@ -85,10 +85,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rotationType: 0
+  _hasToBeTriggered: 0
   _rotationAngles: {x: 0, y: 1, z: 0}
   _rotationSpeed: 15
   _swingAngle: 30
   _swingSpeed: 2
+  _target: {fileID: 0}
 --- !u!114 &-5162619767657801443
 MonoBehaviour:
   m_ObjectHideFlags: 0

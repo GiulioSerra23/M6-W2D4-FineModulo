@@ -89,6 +89,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821f3b63535ab8247a588f2b1b3f5f61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _triggerEnterSound: 100
+  _triggerExitSound: 100
+  _requiredID: 0
+  _canRetrigger: 1
   _tag: Bullet
   _useAnInput: 0
   _input: Interact
@@ -96,6 +100,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 8792270793134164939}
   - {fileID: 0}
+  - {fileID: 4808007358417363992}
   _onEnter:
     m_PersistentCalls:
       m_Calls:
@@ -330,6 +335,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3351256937913522772}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4808007358417363992 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7798958408497397324, guid: b66c1cf184c2e384bbf8b2aae6079904,
+    type: 3}
+  m_PrefabInstance: {fileID: 3351256937913522772}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5fe2487324bd14db965a990f16caed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &8792270793134164939 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6090667550602678687, guid: b66c1cf184c2e384bbf8b2aae6079904,

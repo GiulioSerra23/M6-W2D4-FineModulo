@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4501211659856309445}
   - component: {fileID: 2623416783156476582}
   - component: {fileID: 3675524469111862886}
-  - component: {fileID: 8926906245070508072}
   m_Layer: 0
   m_Name: Cube.002
   m_TagString: Untagged
@@ -84,19 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &8926906245070508072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6818661583434556027}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de391e1fc6638f4f9d968075f9747ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _material: {fileID: 2100000, guid: 374e836ccea8e9c4bad5b92ece6ce411, type: 2}
 --- !u!1 &7529103805989286721
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,6 +124,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5045078236899148375}
+  - component: {fileID: 2150544501694268421}
+  - component: {fileID: 7363158246852237649}
   m_Layer: 0
   m_Name: SquircleRune
   m_TagString: Untagged
@@ -161,3 +149,29 @@ Transform:
   - {fileID: 1364337053450526306}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2150544501694268421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8761726754517482288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8de391e1fc6638f4f9d968075f9747ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _material: {fileID: 2100000, guid: 374e836ccea8e9c4bad5b92ece6ce411, type: 2}
+--- !u!114 &7363158246852237649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8761726754517482288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5fe2487324bd14db965a990f16caed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _particleType: 30
