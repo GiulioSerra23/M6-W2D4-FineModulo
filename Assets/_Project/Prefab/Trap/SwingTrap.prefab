@@ -71,10 +71,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rotationType: 1
+  _hasToBeTriggered: 0
   _rotationAngles: {x: 0, y: 0, z: -1}
   _rotationSpeed: 5
   _swingAngle: 30
   _swingSpeed: 5
+  _target: {fileID: 0}
 --- !u!114 &5374514201341325917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88,7 +90,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _damageAmount: 10
-  _interval: 1
+  _interval: 0
+  _damageOverTime: 0
 --- !u!1 &1020858146967966487
 GameObject:
   m_ObjectHideFlags: 0
